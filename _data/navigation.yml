@@ -1,0 +1,8 @@
+#Please use the main menu items under the "text"
+
+- text: My Story
+  url: /pages/about
+- text: Resources
+  url: /pages/blog
+- text: Sign In
+  url: https://app.getbitcoinclarity.com/users/sign_in

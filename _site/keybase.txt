@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/kiarabickers
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://getbitcoinclarity.com
+  * I am kiarabickers (https://keybase.io/kiarabickers) on keybase.
+  * I have a public key with fingerprint EE11 5C83 919D C3AF 275E  775F C396 7651 9332 FE0E
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01018f63d108f5f690cf27eed4627a298d6af816ebc450ff3867236cf11d6cd91a380a",
+      "fingerprint": "ee115c83919dc3af275e775fc39676519332fe0e",
+      "host": "keybase.io",
+      "key_id": "c39676519332fe0e",
+      "kid": "01018f63d108f5f690cf27eed4627a298d6af816ebc450ff3867236cf11d6cd91a380a",
+      "uid": "d0322a9dffde0093112bc59db9667319",
+      "username": "kiarabickers"
+    },
+    "service": {
+      "hostname": "getbitcoinclarity.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1566426065,
+  "expire_in": 157680000,
+  "prev": "bcd9f6ab1af4b8d90854d6c6b90c12ee74abff2eed227b80d1123d16bd652b33",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.3
+Comment: https://keybase.io/crypto
+
+yMIsAnicrZJbSBRRHMZ31YoMRRAJDUsmggqxOTM7Z2Y2qOiK0MXK8iXZznUd1Jlt
+drwVG/XSjTTwpbIXISOiMCrT7IKpBZJKhAZKGPQgSDchTcrCOiP11mPn5dy+/+98
+/4/zLC05kBrsWvOlHuYkyoL93VerAqWlva+OSdihdVL4mFTO5idWQVnci5RbVApL
+MpCBwaFKgWxwjUNTJlzRGaMhqOhIMQ0KETcAZJiENJlz1YC6okLCAaCQUBMg1ZCR
+lC9xy44yN+ZatiewjAGgEUM1gUmJigRSY7qucaKaUIcaMFVV4UxmorDMifsVwhxG
+cVZgOeJMbCLz9v6h/8++q+ZxVFYVBZmUc8pk2VQBUDDRTIpNCHUVmL4wzlwbVTLf
+q4VchC1Szty4lMiXxE21RZgfrt/NH1WUedjyiGPZpAK5lldXQJxKAYq5jucQp0JI
+yjwvFvYJXl3ML6lhOPIHFsGWTUWmoqBaPGM5thQGQkk8y6cDDcKQAmWo5UusNma5
+LGL5Ck2HhiyG/wyrFkgsmuUQYYB4CBvUlA0tJBKAWCQGFMb0EMKciwVVFB0bMhWt
+i1QhplBTsKpKfntHbEcK68Imigpk3IrayKtymZToeXooJRBMDSxckOT/tUDq4oy/
+P7Br56JfCS/90/DCmr6vte5Mcu791+HiXjT4pHPu80DRZNvEne+NWx5nZf8aupy4
+UDJzqrhtd2b32oO1ZM9EzZmOjs01ZFPr8UJ918vp9cMp7fvaMlpOy52r5sYGet+O
+NnZ3nHzeHTlK6WzzSEb8afT9i4c9vclT2salJbdzdzRlT/Rdb0rZeunDx8047dpg
+2rq0qUftJZUJlNdz9v4D48Cud1c2FP+4ea9t9flb5/PJyrNgNpgesG+0bBsnq+4u
+H1qn5T1LurY/4/rXwCEQ/LZke+G05A2du5JVv2zvbO0Z40P6iaki8ma8YXTyYgFv
+ONWT8zOz/17Tz+EVdWPleScS052HW5tHPv8GtBBNtQ==
+=luG6
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kiarabickers
+
+==================================================================

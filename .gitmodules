@@ -1,0 +1,3 @@
+[submodule "themes/highpaper"]
+	path = themes/highpaper
+	url = https://github.com/kiararobles/highpaper

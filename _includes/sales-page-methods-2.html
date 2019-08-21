@@ -1,0 +1,24 @@
+<section class="service-area grey-bg pb-70 pt-40">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 text-center mb-40">
+                <div class="section-title service-title">
+                    <h2>Learn everything, and dominate crypto</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {% for service in site.services %}
+            <div class="col-lg-3 col-md-6 text-center mb-30">
+				{% if service.icon %}
+				<div class="features-icon">
+					<img src="{{service.icon}}" alt="{{service.title}}">
+				</div>
+				{% endif %}
+				<h4 style="text-align:left;">{{service.title}}</h4>
+				<p style="font-size: 0.88889rem; line-height: 1.24444rem; text-align:left;">{{service.description}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
