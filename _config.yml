@@ -76,7 +76,7 @@ pagination:
 
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: 'html'
+  extension: ''
 
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
@@ -96,3 +96,5 @@ feed:
   collections:
     posts:
       path: "/index.xml"
+
+relative_permalinks: false
