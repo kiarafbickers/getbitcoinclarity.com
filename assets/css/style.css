@@ -1976,3 +1976,30 @@ td img{
     margin-right: auto;
     margin-top 15px;
 }
+
+.blog-area h3, h4, h5, h6 {
+	color: #4988e7;
+}
+
+.blog-area body {
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8em;
+    line-height: 1.6em;
+	color: #000000;
+}
+
+.blog-area p {
+
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.8em;
+    line-height: 1.6em;
+	color: #000000;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 1.6em;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
