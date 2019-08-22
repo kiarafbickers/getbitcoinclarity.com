@@ -229,16 +229,6 @@
       }
     }
   });
-
-  $.scrollUp({
-    scrollName: "scrollUp", // Element ID
-    topDistance: "300", // Distance from top before showing element (px)
-    topSpeed: 300, // Speed back to top (ms)
-    animation: "fade", // Fade, slide, none
-    animationInSpeed: 1000, // Animation in speed (ms)
-    animationOutSpeed: 1000, // Animation out speed (ms)
-    scrollText: '<span class="lnr lnr-chevron-up"></span>' // Text for element
-  });
   
   if($("#search-input").length >0){
     
