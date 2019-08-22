@@ -76,21 +76,11 @@ pagination:
 
   # Optional, the default file extension for generated pages (e.g html, json, xml).
   # Internally this is set to html by default
-  extension: ''
+  extension: 'html'
 
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: 'index'
-
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
-
-jekyll-archives:
-  enabled: all
-  layout: category
-  permalinks:
-    category: '/category/:name/'
 
 feed:
   collections:
