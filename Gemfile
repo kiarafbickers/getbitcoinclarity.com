@@ -33,3 +33,5 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # https://github.com/pattex/jekyll-tagging/issues/56
 gem 'jekyll-tagging'
+
+gem "github-pages", group: :jekyll_plugins
