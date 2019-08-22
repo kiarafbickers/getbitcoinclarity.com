@@ -6,3 +6,6 @@ ErrorDocument 401 /error/not_allowed.html
 ErrorDocument 403 /error/not_allowed.html
 ErrorDocument 404 /error/not_found
 ErrorDocument 500 /error/godzilla_rampage.html
+
+
+block-explorer
