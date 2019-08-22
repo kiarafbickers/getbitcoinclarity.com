@@ -2,7 +2,7 @@ title: "Bitcoin Clarity"
 description: >- # this means to ignore newlines until "baseurl:"
  Bitcoin Clarity explains what Bitcoin is, why it works, and if it can work for you.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
+url: "https://www.getbitcoinclarity.com" # the base hostname & protocol for your site, e.g. http://example.com or  https://tradejk.netlify.com
 facebook_url: https://www.facebook.com/kiarabickersfan/
 
 permalink: "/:title"
