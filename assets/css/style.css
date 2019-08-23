@@ -1562,6 +1562,15 @@ label {
 }
 /* sidebar */
 .widget {
+	position: fixed;
+	z-index: 5;
+	max-width: 25%;
+	bottom: auto;
+	box-shadow: 0 20px 30px rgba(7,34,48,.11);
+	border-radius: 5px;
+	border: 1px solid #d5dbdd;
+	transform: translate3d(0,0,0);
+	display: block;
 	background: #fff;
 	overflow: hidden;
 	padding: 10px;
@@ -1710,6 +1719,7 @@ label {
 .sidebar-link li span{float:right;}
 .widget-banner img {
 	width: 100%;
+	margin-top: 10px;
 }
 .instagram-link{margin:0 -5px}
 .instagram-link li {
@@ -1978,20 +1988,20 @@ td img{
 }
 
 .blog-area h3, h4, h5, h6 {
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
 	color: #4988e7;
 }
 
 .blog-area body {
-
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.8em;
     line-height: 1.6em;
 	color: #000000;
 }
 
 .blog-area p {
-
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 1.8em;
     line-height: 1.6em;
 	color: #000000;
