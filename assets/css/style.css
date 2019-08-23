@@ -1562,15 +1562,6 @@ label {
 }
 /* sidebar */
 .widget {
-	position: fixed;
-	z-index: 5;
-	max-width: 25%;
-	bottom: auto;
-	box-shadow: 0 20px 30px rgba(7,34,48,.11);
-	border-radius: 5px;
-	border: 1px solid #d5dbdd;
-	transform: translate3d(0,0,0);
-	display: block;
 	background: #fff;
 	overflow: hidden;
 	padding: 10px;
@@ -1679,7 +1670,18 @@ label {
 	text-transform: uppercase;
 	font-weight: 500;
 }
-.sidebar-blog .widget{margin-bottom:35px;}
+.sidebar-blog .widget{
+	margin-bottom:35px;
+	position: fixed;
+	z-index: 5;
+	max-width: 25%;
+	bottom: auto;
+	box-shadow: 0 20px 30px rgba(7,34,48,.11);
+	border-radius: 5px;
+	border: 1px solid #d5dbdd;
+	transform: translate3d(0,0,0);
+	display: block;
+}
 .sidebar-blog .widget:last-child{margin-bottom:0;}
 .widget-social{}
 .widget-social a {
