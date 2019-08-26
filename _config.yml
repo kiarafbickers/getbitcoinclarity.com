@@ -23,7 +23,7 @@ exclude:
   - node_modules
   - gulpfile.js
 
-cover_image: "/assets/img/bg/about-cover-image.jpg"
+cover_image: "/assets/img/about/kiara-bickers-office.jpg"
 
 #collections
 collections:
