@@ -1,7 +1,7 @@
-<section class="service-area grey-bg pb-70 pt-40">
+<section class="service-area grey-bg" style="padding-bottom:70px; padding-top:40px;">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center mb-40">
+            <div class="col-xl-12 text-center" style="margin-bottom:40px;">
                 <div class="section-title service-title">
                     <h2>Learn everything, and dominate crypto</h2>
                 </div>
@@ -9,7 +9,7 @@
         </div>
         <div class="row">
             {% for service in site.services %}
-            <div class="col-lg-3 col-md-6 text-center mb-30">
+            <div class="col-lg-3 col-md-6 text-center" style="margin-bottom:30px;">
 				{% if service.icon %}
 				<div class="features-icon">
 					<img src="{{service.icon}}" alt="{{service.title}}">
