@@ -51,9 +51,12 @@
 
 <body>
 
-    {{content}}
-
-    {% include footer.html %}
+    <div class="page-container">
+      <div class="content-wrap">
+        {{content}}
+      </div>
+        {% include footer.html %}
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
