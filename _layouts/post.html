@@ -21,9 +21,7 @@ layout: default
         <div class="row">
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper" style="margin-bottom: 60px;">
-                    <div class="blog-thumb">
-                        <img src="{{page.post_image}}" alt="{{page.title}}" style='border:1px solid #77808c'/>
-                    </div>
+                	{% if page.post_video %}><iframe width="560" height="315" src="{{page.post_video}}" frameborder="0" allowfullscreen></iframe>{% else %}<div class="blog-thumb"><img src="{{page.post_image}}" alt="{{page.title}}" style='border:1px solid #77808c'/></div>{% endif %}
                     <div class="blog-content">
                        {{content}}
                     </div>
