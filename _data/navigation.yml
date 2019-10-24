@@ -1,8 +1,10 @@
 #Please use the main menu items under the "text"
 
-- text: My Story
-  url: /pages/about
+- text: Are We a Good Fit?
+  url: /pages/faq
 - text: Resources
   url: /pages/resources
+- text: My Story
+  url: /pages/about
 - text: Sign In
   url: https://app.getbitcoinclarity.com/

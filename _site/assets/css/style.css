@@ -20,6 +20,7 @@
 13. Contact
 14. Blog
 15. Pagination
+16. FAQ
 */
 
 /* 1. Theme default css */
@@ -594,4 +595,183 @@ td img{
     margin-bottom: 1.6em;
     word-wrap: break-word;
     white-space: pre-wrap;
+}
+
+/* 16. FAQ */
+.price-container {
+  display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+  margin-top:20px;
+}
+.price-plan {
+  background-color: #ffffff;
+	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+	border-radius: 4px;
+	flex: 1;
+	padding: 0 30px 30px;
+	margin: 2%;
+	min-width: 200px;
+	max-width: 300px;
+  text-align: center;
+}
+.fancy {
+  margin-top: 20px;
+  margin-bottom:20px;
+  transform: scale(1.1);
+  background-color:#fff;
+  background-size: 200% 200%;
+  background-position-x:50%;
+  color:#000;
+}
+.price-points {
+  list-style-type:none;
+  padding:0px;
+}
+.price-points li {
+  padding:10px 0px;
+}
+.price-points li:not(:last-of-type) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.price {
+  font-size:32px;
+  font-weight:300;
+}
+.price sub,
+.price sup {
+  font-size:16px;
+  font-weight:100;
+}
+
+/* First Row */
+.polyFirst {
+  width: 130px;
+  padding: 10px 10px;
+  border: none;
+  background-color:#000;
+  background-size: 300%;
+  color: white;
+  font-size: 16px;
+	font-weight:bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+.polyFirst:hover {
+  background-size: 150%;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+.polyFirst:active {
+  transform:scale(1.15);
+  transition-duration: 0.1s;
+}
+/*          */
+
+/* Fourth Row */
+.polyFourth {
+  width: 150px;
+  padding: 10px 18px;
+  border: none;
+  background-color:#000;
+  background-size: 300%;
+  color: white;
+  font-size: 18px;
+  font-weight:bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition-duration: 0.5s;
+}
+.polyFourth:hover {
+  background-size: 150%;
+  transition-duration: 0.3s;
+  transform: scale(1.2);
+}
+.polyFourth:active {
+  transform:scale(1.15);
+  transition-duration: 0.1s;
+}
+.poly2 {
+  background-position-x: 15%;
+}
+.poly3 {
+  background-position-x: 45%;
+}
+
+
+.faq-container {
+  margin: 0 auto;
+  padding: 4rem;
+  width: 48rem;
+}
+.accordion a {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem 3rem 1rem 1rem;
+  color: #7288a2;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #4988e7;
+}
+.accordion a:hover::after {
+  border: 1px solid #4988e7;
+}
+.accordion a.active {
+  color: #4988e7;
+  border-bottom: 1px solid #4988e7;
+}
+.accordion a::after {
+	content: "\f067";
+  font-family: 'Font Awesome\ 5 Free';
+	font-weight: 900;
+  position: absolute;
+  float: right;
+  right: 1rem;
+  font-size: 1rem;
+  color: #7288a2;
+  text-align: center;
+}
+.accordion a.active::after {
+	content: "\f068";
+	font-family: 'Font Awesome\ 5 Free';
+  color: #4988e7;
+}
+.accordion .content {
+  opacity: 0;
+  padding: 0 1rem;
+  max-height: 0;
+  border-bottom: 1px solid #e5e5e5;
+  overflow: hidden;
+  clear: both;
+  -webkit-transition: all 0.2s ease 0.15s;
+  -o-transition: all 0.2s ease 0.15s;
+  transition: all 0.2s ease 0.15s;
+}
+.accordion .content p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+.accordion .content.active {
+  opacity: 1;
+  padding: 1rem;
+  max-height: 100%;
+  -webkit-transition: all 0.35s ease 0.15s;
+  -o-transition: all 0.35s ease 0.15s;
+  transition: all 0.35s ease 0.15s;
 }
