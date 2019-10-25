@@ -1,6 +1,6 @@
 
 # Site
-title: "Bitcoin Clarity"
+title: "Kiara Bickers - Bitcoin Clarity"
 description: "Bitcoin Clarity explains what Bitcoin is, why it works, and if it can work for you."
 
 # URL
@@ -17,6 +17,8 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
   - package.json
@@ -96,3 +98,27 @@ feed:
       path: "/index.xml"
 
 relative_permalinks: false
+
+# SEO/OpenGraph
+logo: /assets/img/logo/bitcoin-calrity-logo-white.png
+
+twitter:
+  username: kiarabickers
+  card: summary
+
+social:
+  name: kiarabickers
+  links:
+    - https://twitter.com/kiarabickers
+    - https://github.com/kiarabickers
+
+author:
+  twitter: kiarabickers
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/logo/bitcoin-calrity-logo-white.png
+      author: kiarabickers
+# /SEO

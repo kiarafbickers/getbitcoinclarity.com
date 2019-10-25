@@ -9,8 +9,20 @@
     <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords}}{% else %}{{ site.keywords }}{% endif %}">
 
+    {% seo %}
+    {% feed_meta %}
     {% include google-tag-head.html %}
-
+    
+    <!-- Site Title -->
+	<title>
+	   {%if page.title %}
+		   {{ page.title }}
+	   {% else %}
+		   {{ site.title }}
+	   {% endif %}
+	</title>
+    <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
+    
     <!-- Facebook Open Graph -->
     <meta content="{{ site.title }}" property="og:site_name">
     <meta property="og:locale" content="en_US" />
@@ -22,16 +34,14 @@
     {% if page.tag %}{% for tag in page.tag %}<meta content="{{ tag }}" property="article:tag">{% endfor %}{% endif %}
     {% if page.categories %}{% for category in page.categories limit:1 %}<meta content="{{ category }}" property="article:section">{% endfor %}{% endif %}
     {% if page.date %}<meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">{% endif %}
+    
     <!-- Twitter cards -->
     <meta name="twitter:site"    content="@{{ site.twitter_username }}">
     <meta name="twitter:creator" content="@{{ page.twitter_username }}">
     {% if page.title %}<meta name="twitter:title"   content="{{ page.title }}">{% else %}<meta name="twitter:title"   content="{{ site.title }}">{% endif %}
     {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
     {% if page.post_image %}<meta name="twitter:card"  content="summary_large_image"><meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">{% else %}<meta name="twitter:card"  content="summary"><meta name="twitter:image" content="{{ site.cover_image }}">{% endif %}
-    <!-- Site Title -->
-    <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
-    <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
-
+    
     <!-- CSS -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/awesome.min.css">
@@ -40,16 +50,12 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/slick.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.min.css">
-	  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/meanmenu.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Open Sans:100,200,300,400,400i,500,600,700,800,900" rel="stylesheet">
-    <title>{{site.title}}</title>
-
-    <title>{{site.title}}</title>
-    {% feed_meta %}
 </head>
 
 <body>
