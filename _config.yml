@@ -123,6 +123,6 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/img/logo/bitcoin-calrity-logo-white.png
+      image: /assets/img/landing/kiara-bickers-safe.jpg
       author: kiarabickers
 # /SEO
