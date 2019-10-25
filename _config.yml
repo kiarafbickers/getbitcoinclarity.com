@@ -30,6 +30,7 @@ exclude:
   - gulpfile.js
 
 cover_image: "/assets/img/about/kiara-bickers-office.jpg"
+default_image: "/assets/img/landing/kiara-bickers-safe.jpg"
 
 #collections
 collections:

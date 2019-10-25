@@ -6,6 +6,7 @@ tags: purpose
 categories: [product]
 author: "kiara bickers"
 post_image: "/assets/img/blog/bitcoin-clarity-book.jpg"
+description: "Kiara wrote Bitcoin Clarity to help investors understand this new and evolving cryptocurrency industry."
 ---
 
 In 2017, "What is Bitcoin?" was the most Googled question, and two years later still, nobody is exactly sure what it is.
