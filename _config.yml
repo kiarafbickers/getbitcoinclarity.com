@@ -1,7 +1,7 @@
 
 # Site
 title: "Kiara Bickers - Bitcoin Clarity"
-description: "Bitcoin Clarity explains what Bitcoin is, why it works, and if it can work for you."
+description: "Explains what Bitcoin is, why it works, and if it can work for you."
 
 # URL
 baseurl: ""
@@ -19,6 +19,10 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-minifier
+
+jekyll-minifier:
+  exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 
 exclude:
   - package.json
