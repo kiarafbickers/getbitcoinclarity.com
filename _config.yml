@@ -107,18 +107,19 @@ relative_permalinks: false
 # SEO/OpenGraph
 logo: /assets/img/logo/bitcoin-calrity-logo-white.png
 
+facebook:
+  publisher: https://www.facebook.com/kiarabickersfan/
+  admins: https://www.facebook.com/kiarabickers
+
 twitter:
   username: kiarabickers
-  card: summary
+  card: summary_large_image
 
 social:
   name: kiarabickers
   links:
     - https://twitter.com/kiarabickers
     - https://github.com/kiarabickers
-
-author:
-  twitter: kiarabickers
 
 defaults:
   - scope:

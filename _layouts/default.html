@@ -9,8 +9,13 @@
     <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
     <meta name="keywords" content="{% if page.keywords %}{{ page.keywords}}{% else %}{{ site.keywords }}{% endif %}">
 
+    <!-- seo -->
     {% seo %}
+
+    <!-- feed_meta -->
     {% feed_meta %}
+
+    <!-- google-tag-head.html -->
     {% include google-tag-head.html %}
 
     <!-- Site Title -->
@@ -51,7 +56,7 @@
     {% if page.post_image %}
     <meta content="{{ site.url }}{{ page.post_image }}" property="og:image">
     {% else %}
-    <meta content="{{ site.default_image }}" property="og:image">
+    <meta content="{{ site.url }}{{ site.default_image }}" property="og:image">
     {% endif %}
 
     {% if page.tag %}
@@ -85,12 +90,11 @@
     <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
 
-    {% if page.post_image %}
     <meta name="twitter:card"  content="summary_large_image">
+    {% if page.post_image %}
     <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">
     {% else %}
-    <meta name="twitter:card"  content="summary">
-    <meta name="twitter:image" content="{{ site.default_image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.default_image }}">
     {% endif %}
     <!-- end of Twitter cards -->
 

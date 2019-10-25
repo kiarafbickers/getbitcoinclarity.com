@@ -7,6 +7,10 @@ categories: [blog video]
 author: "kiara bickers"
 post_image: "/assets/img/blog/what-you-need-to-know-about-hashrate.png"
 post_video: "https://www.youtube.com/embed/j_3KYNSNXwM"
+seo:
+  type: BlogPosting
+image:
+  path: "/assets/img/blog/what-you-need-to-know-about-hashrate.png"
 ---
 
 What is the Bitcoin hashrate? How is it measured? What does a high or low network hashrate indicate for the rest of the Bitcoin network?
