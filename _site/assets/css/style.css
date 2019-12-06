@@ -98,9 +98,6 @@ ul {
 	margin: 0px;
 	padding: 0px;
 }
-li {
-	list-style: none
-}
 p {
 	font-size: 14px;
 	font-weight: normal;
@@ -390,7 +387,6 @@ p {
 	flex-wrap: wrap;
 	padding: 0;
 	margin-bottom: 0;
-	list-style: none;
 	background-color: none;
 	border-radius: 0;
 }
@@ -774,4 +770,9 @@ td img{
   -webkit-transition: all 0.35s ease 0.15s;
   -o-transition: all 0.35s ease 0.15s;
   transition: all 0.35s ease 0.15s;
+}
+
+.legal h3 {
+    margin-top: 40px;
+		line-height: 125%;
 }
