@@ -1,12 +1,16 @@
 #Please use the main menu items under the "text"
 
-- text: Are We a Good Fit?
-  url: /pages/faq
 - text: The Book
   url: https://getbitcoinclarity.sale/
+  submenu:
+  - text: Kind Tweets
+    url: /pages/kind-tweets
 - text: Resources
   url: /pages/resources
 - text: My Story
   url: /pages/about
+  submenu:
+  - text: Are We a Good Fit?
+    url: /pages/faq
 - text: Sign In
   url: https://app.getbitcoinclarity.com/
