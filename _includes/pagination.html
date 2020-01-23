@@ -1,12 +1,12 @@
 {% if paginator.total_pages > 1 %}
-<nav class="page-navigation pagination">
-<ul>
-    {% if paginator.previous_page %}
+  {% if paginator.previous_page %}
+    <div class="col">
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn">Prev</a>
-    {% endif %}
-    {% if paginator.next_page %}
+    </div>
+  {% endif %}
+  {% if paginator.next_page %}
+    <div class="col">
     <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Next</a>
-    {% endif %}
-</ul>
-</nav>
+    </div>
+  {% endif %}
 {% endif %}
