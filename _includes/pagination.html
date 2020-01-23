@@ -2,10 +2,10 @@
 <nav class="page-navigation pagination">
 <ul>
     {% if paginator.previous_page %}
-    <li class="page-item"><a class="page-link active" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Prev</a></li>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn">Prev</a>
     {% endif %}
     {% if paginator.next_page %}
-    <li class="page-item"><a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a></li> 
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Next</a>
     {% endif %}
 </ul>
 </nav>
