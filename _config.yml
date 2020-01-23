@@ -38,9 +38,7 @@ collections:
     output: true
   interviews:
     output: true
-  features:
-    output: true
-  services:
+  focuses:
     output: true
 
 ########################################################
