@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: "Why I Wrote Bitcoin Clarity"
 date: 2019-07-07
 tags: purpose

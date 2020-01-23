@@ -34,6 +34,10 @@ default_image: "/assets/img/landing/kiara-bickers-safe.jpg"
 
 #collections
 collections:
+  articles:
+    output: true
+  interviews:
+    output: true
   features:
     output: true
   services:
@@ -96,6 +100,10 @@ pagination:
   # Optional, the default name of the index file for generated pages (e.g. 'index.html')
   # Without file extension
   indexpage: 'index'
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
 
 feed:
   collections:

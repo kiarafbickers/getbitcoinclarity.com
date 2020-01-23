@@ -1,14 +1,6 @@
 [
   
     {
-      "title"    : "How Do Bitcoin Keys Work?",
-      "category" : "",
-      "tags"     : "fed,, economics",
-      "url"      : "/how-do-bitcoin-keys-work",
-      "date"     : "2020-01-01 00:00:00 -0600"
-    } ,
-  
-    {
       "title"    : "What You Need to Know About Bitcoin Hashrate",
       "category" : "",
       "tags"     : "fed,, economics",
@@ -19,17 +11,9 @@
     {
       "title"    : "The Federal Reserve Is Expanding Its Balance Sheet",
       "category" : "",
-      "tags"     : "fed,, economics",
+      "tags"     : "fed, economics",
       "url"      : "/federal-reserve-expanding-its-balance-sheet",
       "date"     : "2019-10-10 00:00:00 -0500"
-    } ,
-  
-    {
-      "title"    : "Why I Wrote Bitcoin Clarity",
-      "category" : "",
-      "tags"     : "purpose",
-      "url"      : "/why-i-wrote-bitcoin-clarity",
-      "date"     : "2019-07-07 00:00:00 -0500"
     } 
   
 ]

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: interview
 title: "What You Need to Know About Bitcoin Hashrate"
 date: 2019-10-23
 tags: fed, economics
@@ -15,7 +15,7 @@ image:
 
 What is the Bitcoin hashrate? How is it measured? What does a high or low network hashrate indicate for the rest of the Bitcoin network?
 
-SUMMARY:
+### SUMMARY:
 
 Several weeks ago the price of Bitcoin crashed from $10,000 to $8,000 dollars.
 
@@ -31,7 +31,7 @@ In today's video, I show you what hashrate is, AND how it's measured, so you und
 
 Check it out and let me know what you think in the comments?
 
-HERE'S WHAT I COVER:
+### HERE'S WHAT I COVER:
 
 1. What hashrate is. (The total number of hashes being computed by the miners in the network)
 

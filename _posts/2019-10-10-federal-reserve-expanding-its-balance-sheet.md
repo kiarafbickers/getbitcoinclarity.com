@@ -2,7 +2,7 @@
 layout: post
 title: "The Federal Reserve Is Expanding Its Balance Sheet"
 date: 2019-10-10
-tags: fed, economics
+tags: fed economics
 categories: [blog video]
 author: "kiara bickers"
 post_image: "/assets/img/blog/federal-reserve-expanding-its-balance-sheet.png"

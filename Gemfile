@@ -23,6 +23,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate-v2"
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-tagging'
 end
 
 # Performance-booster for watching directories on Windows
