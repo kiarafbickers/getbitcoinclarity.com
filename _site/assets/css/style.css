@@ -961,3 +961,24 @@ td img{
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+.align-right-50 {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.align-left-50 {
+	float: left;
+	width: 50%;
+}
+
+
+.align-right-100 {
+	float: right;
+	text-align: right;
+}
+
+.align-left-100 {
+	float: left;
+}

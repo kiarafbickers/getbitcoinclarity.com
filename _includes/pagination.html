@@ -1,12 +1,19 @@
 {% if paginator.total_pages > 1 %}
   {% if paginator.previous_page %}
-    <div class="col">
+    <div class="col align-left-50">
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="btn">Prev</a>
     </div>
+    {% if paginator.next_page %}
+      <div class="col align-right-50">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Next</a>
+      </div>
+    {% endif %}
   {% endif %}
-  {% if paginator.next_page %}
-    <div class="col">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Next</a>
-    </div>
+  {% if paginator.next_page%}
+    {% unless paginator.previous_page %}
+      <div class="col align-right-100">
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="btn">Next</a>
+      </div>
+    {% endunless %}
   {% endif %}
 {% endif %}
