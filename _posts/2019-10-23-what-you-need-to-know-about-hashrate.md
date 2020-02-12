@@ -1,8 +1,8 @@
 ---
-layout: interview
+layout: post
 title: "What You Need to Know About Bitcoin Hashrate"
 date: 2019-10-23
-tags: fed, economics
+tags: fed economics
 categories: [blog video]
 author: "kiara bickers"
 post_image: "/assets/img/blog/what-you-need-to-know-about-hashrate.png"
