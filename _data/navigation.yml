@@ -7,10 +7,11 @@
     url: /pages/kind-tweets
 - text: Resources
   url: /pages/resources
-- text: My Story
-  url: /pages/about
-  submenu:
-  - text: Are We a Good Fit?
-    url: /pages/faq
 - text: Sign In
   url: https://app.getbitcoinclarity.com/
+
+# - text: My Story
+#   url: /pages/about
+#   submenu:
+# - text: Are We a Good Fit?
+#   url: /pages/faq
