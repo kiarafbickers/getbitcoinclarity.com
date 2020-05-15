@@ -5,7 +5,7 @@ date: 2019-10-23
 tags: fed economics
 categories: [blog video]
 author: "kiara bickers"
-post_image: "/assets/img/blog/what-you-need-to-know-about-hashrate.png"
+post_image: "/assets/img/blog/thumbnails/what-you-need-to-know-about-hashrate.png"
 post_video: "https://www.youtube.com/embed/j_3KYNSNXwM"
 seo:
   type: BlogPosting

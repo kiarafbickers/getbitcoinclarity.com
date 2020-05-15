@@ -35,8 +35,9 @@ body {
     font-size: 14px;
 	font-weight: normal;
 	line-height: 26px;
-	color: #000;
+	color: #202124;
 	margin-bottom: 15px;
+	vertical-align: baseline;
 }
 a,
 .button {
@@ -57,18 +58,12 @@ button {
 	color: #1696e7;
 	outline: medium none;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
 	font-family: 'Poppins', sans-serif;
-	font-weight: normal;
-	color: #000;
+	color: #202124;
 	margin-top: 0px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 550;
 	text-transform: normal;
 	text-rendering: optimizeLegibility;
     text-shadow: 0 0 1px transparent;
@@ -76,14 +71,15 @@ h6 {
     word-break: break-word;
 }
 h1 {
-	font-size: 40px;
-	font-weight: 500;
+	font-size: 36px;
+	padding-bottom: 15px;
 }
 h2 {
-	font-size: 35px;
+	font-size: 28px;
+	padding-top: 15px;
 }
 h3 {
-	font-size: 28px;
+	font-size: 24px;
 }
 h4 {
 	font-size: 22px;
@@ -99,11 +95,13 @@ ul {
 	padding: 0px;
 }
 p {
-	font-size: 14px;
+	font-size: 100%;
 	font-weight: normal;
-	line-height: 26px;
-	color: #000;
-	margin-bottom: 15px;
+	display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 /* button style */
@@ -737,21 +735,17 @@ td img{
 
 .blog-area h3, h4, h5, h6 {
 	margin-top: 10px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Google Sans', Roboto, sans-serif;
 	color: #4988e7;
 }
 .blog-area p {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.8em;
-    line-height: 1.6em;
-	color: #000000;
-	margin-block-start: 1em;
-    margin-block-end: 1em;
+	font-size: 100%;  
+	color: #000000;   
+    display: block;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    margin-bottom: 1.6em;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    margin-bottom: 1.666666666667em;
 }
 
 /* 16. FAQ */

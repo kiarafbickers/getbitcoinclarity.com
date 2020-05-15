@@ -5,12 +5,12 @@ date: 2019-10-10
 tags: fed economics
 categories: [blog video]
 author: "kiara bickers"
-post_image: "/assets/img/blog/federal-reserve-expanding-its-balance-sheet.png"
+post_image: "/assets/img/blog/thumbnails/federal-reserve-expanding-its-balance-sheet.png"
 post_video: "https://www.youtube.com/embed/gCNhV6BmaBI"
 seo:
   type: BlogPosting
 image:
-  path: "/assets/img/blog/federal-reserve-expanding-its-balance-sheet.png"
+  path: "/assets/img/blog/thumbnails/federal-reserve-expanding-its-balance-sheet.png"
 ---
 
 What is the fed balance sheet? What does it mean to expand it? And how does that affect us?
