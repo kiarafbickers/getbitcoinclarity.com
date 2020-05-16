@@ -9,24 +9,3 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-.lnr {
-	font-family: 'Linearicons-Free';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-.lnr-chevron-left:before {
-	content: "\e875";
-}
-.lnr-chevron-right:before {
-	content: "\e876";
-}

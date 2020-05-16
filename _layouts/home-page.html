@@ -77,36 +77,29 @@
 
     <!-- Twitter cards -->
     <meta name="twitter:site"    content="@{{ site.twitter.username }}">
-
     {% if page.title %}
     <meta name="twitter:title"   content="{{ page.title }}">
     {% else %}
     <meta name="twitter:title"   content="{{ site.title }}">
     {% endif %}
-
     {% if page.description %}
     <meta name="twitter:description" content="{{ page.description }}">
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
-
     <meta name="twitter:card"  content="summary_large_image">
     {% if page.post_image %}
     <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">
     {% else %}
     <meta name="twitter:image" content="{{ site.url }}{{ site.default_image }}">
     {% endif %}
-    <!-- end of Twitter cards -->
+
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/awesome.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icofont.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/linearicons.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/slick.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/animate.min.css">
-	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/magnific-popup.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/meanmenu.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/default.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
