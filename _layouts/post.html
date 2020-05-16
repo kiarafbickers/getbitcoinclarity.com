@@ -22,7 +22,7 @@ layout: default
             <div class="col-lg-8 blog-post-items">
                 <div class="blog-wrapper" style="margin-bottom: 60px;">
                 	{% if page.post_video %}
-                    <iframe width="700" height="394" src="{{page.post_video}}" frameborder="0" allowfullscreen></iframe>
+                    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='{{page.post_video}}' frameborder='0' allowfullscreen></iframe></div>
                   {% else %}
                     <div class="blog-thumb"><img src="{{page.post_image}}" alt="{{page.title}}" style='border:1px solid #77808c'/></div>
                   {% endif %}
@@ -36,9 +36,11 @@ layout: default
                     </div> -->
                 </div>
             </div>
+<!-- 
             <div class="col-lg-4 sidebar-blog right-side">
               {% include sidebar.html %}
             </div>
+ -->
         </div>
     </div>
 </div>

@@ -20,6 +20,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-minifier
+  - jekyll-analytics
 
 jekyll-minifier:
   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
@@ -134,3 +135,8 @@ defaults:
     values:
       image: /assets/img/landing/kiara-bickers-safe.jpg
       author: kiarabickers
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-142494918-1
+    anonymizeIp: false
