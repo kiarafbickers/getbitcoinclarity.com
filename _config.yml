@@ -125,6 +125,7 @@ social:
   name: kiarabickers
   links:
     - https://twitter.com/kiarabickers
+    - https://instagram.com/kiarabickers
     - https://github.com/kiarabickers
 
 defaults:
@@ -133,4 +134,3 @@ defaults:
     values:
       image: /assets/img/landing/kiara-bickers-safe.jpg
       author: kiarabickers
-# /SEO
