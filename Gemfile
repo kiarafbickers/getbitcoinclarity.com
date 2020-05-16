@@ -25,6 +25,7 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jekyll-tagging'
   gem 'jekyll-analytics'
+  gem 'jekyll-gzip'
 end
 
 # Performance-booster for watching directories on Windows
