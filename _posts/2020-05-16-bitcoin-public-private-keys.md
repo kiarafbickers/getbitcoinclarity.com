@@ -3,7 +3,8 @@ layout: post
 title: "Bitcoin Private and Public Keys: The Basics"
 description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
 date: 2020-05-16
-tags: private-keys, public-keys, mnemonic-recovery, addresses
+last_modified_at: 2020-05-17
+tags: private-keys public-keys mnemonic-recovery addresses wallet
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/01-bitcoin-keys.jpg"
@@ -18,7 +19,7 @@ image:
 
 Bitcoin uses asymmetric or public-key cryptography to create a **key pair** that controls your access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
 
-## What’s the difference between the bitcoin private key vs bitcoin public key?
+## What’s the difference between the bitcoin private and public keys?
 
 A **bitcoin private key** is simply a massive secret number that ***allows bitcoin to be unlocked and sent***. It's called a private key because it's meant to stay concealed and hidden from other people.
 
@@ -52,7 +53,7 @@ When providing someone with a bitcoin address, you're giving them the ability to
 
 ## How are bitcoin private keys generated?
 
-Random number generation is critical in nearly every cryptographic system, unfortunately, computers are fairly bad at generating random numbers. If the number was generated from computer code telling it how to be “random”, that would make it predictable.  Instead, the computer has to seed the random number function with data from outside of the code. To get feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html) as an example.
+Random number generation is critical in nearly every cryptographic system, unfortunately, computers are fairly bad at generating random numbers. If the number was generated from computer code telling it how to be “random”, that would make it predictable.  Instead, the computer has to seed the random number function with data from outside of the code. To get feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html) as an example, but don't use any of the keys you generate here for real, this is just a tool for understanding.
 
 Bitcoin Core uses the OpenSSL library to seed the randomness needed to generate its random private keys. But not all wallets are using good sources of randomness, something you should look out for.
 
@@ -68,7 +69,9 @@ A lot, about 10 million million million million million million million million,
 
 In the same way, numbers can be expressed as words (zero) and numerical digits (0). The private key is just a very large number that has the same properties. Instead of using the literal word expression of the random private key number (vigintillion, googol, or centillion), bitcoin uses a list of 12 or 24 random words to represent the random number.
 
-As specified in [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), the purpose of this mnemonic is to make private keys readable by humans, so they can be easily written down as a backup to a private key, or spoken over the telephone and easily shared. A password can also be added to the phrase, to add some additional protection to your private key backup.
+As specified in [BIP39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki), the purpose of this mnemonic is to make private keys readable by humans, so they can be easily written down as a backup to a private key, or spoken over the telephone and easily shared.
+
+A password can also be added to the phrase, to add some additional protection to your private key backup.
 
 ## How exactly do bitcoin private keys work?
 

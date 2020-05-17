@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "The Blockchain as A Timechain"
-date: 2020-05-10
-tags: bitcoin wallets
+description:
+date: 2020-05-17
+tags: timechain, blockchain
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/04-timechain-not-blockchain.jpg"

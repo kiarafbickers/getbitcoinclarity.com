@@ -716,11 +716,6 @@ blockquote {
   height: auto;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
 .center {
   display: block;
   align-self: center;
