@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Bitcoin Basics: The Best Bitcoin Wallet For You"
-date: 2020-05-10
+description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
+date: 2020-05-16
 tags: bitcoin wallets
 categories: [blog video]
 author: kiarabickers
@@ -18,7 +19,21 @@ image:
   path: "/assets/img/blog/thumbnails/02-bitcoin-wallets.jpg"
 ---
 
-## What is the best bitcoin wallet?
+<br>
+
+## What is the best and safest Bitcoin wallet?
+
+The best bitcoin wallet is that one that you don't have to doubt, [Bitcoin Core](https://bitcoincore.org/en/download/), or a [hardware wallet](https://www.ledger.com/). There are a number of things that can go wrong or fail with bitcoin wallet.
+
+### How can bitcoin wallets be hacked?
+
+It is practically impossible to 'hack' a blockchain, but wallets are a different story. Bitcoin wallets are a weak link in the industry, because not all wallets are held to the same standards, and they rely on users to use them properly.
+
+1. **The wallets random number generation can fail.** Bitcoin private keys are [computer generated random numbers](/blog/2020/05/16/bitcoin-public-private-keys), but if the program or library that your wallet is using to generating those numbers aren't truly random, then the wallet ends up reusing the same random number. This happened to a [secure random number generator on Android back in 2013](https://android-developers.googleblog.com/2013/08/some-securerandom-thoughts.html), it affected at least 4 Android wallets, and [over 55 BTC were lost](https://bitcointalk.org/index.php?topic=271486.0).
+
+
+
+The most battle tested wallet is
 
 ## *Let's help you choose a bitcoin wallet . . .*
 
@@ -43,3 +58,9 @@ Security focused wallets are hardware wallets, cold storage, that allow you to s
 Running MyNode
 
 Being able to validate your own transactions is the only way to get the fully properties of the Bitcoin system. You can validate the entire history of the blockchain with a full node or just your own transactions with a light node/SPV Wallet. In either case, running something like MyNode is one of the simplest ways to get started with validating your bitcoin transactions.
+
+## What is the best mobile wallet?
+
+## What is the best Bitcoin wallet for Android?
+
+## What is the best Bitcoin wallet for iOS?

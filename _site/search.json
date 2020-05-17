@@ -1,19 +1,11 @@
 [
   
     {
-      "title"    : "What You Need to Know About Bitcoin Hashrate",
+      "title"    : "Bitcoin Private and Public Keys: The Basics",
       "category" : "",
-      "tags"     : "fed, economics",
-      "url"      : "/blog/2019/10/23/what-you-need-to-know-about-hashrate",
-      "date"     : "2019-10-23 00:00:00 -0500"
-    } ,
-  
-    {
-      "title"    : "The Federal Reserve Is Expanding Its Balance Sheet",
-      "category" : "",
-      "tags"     : "fed, economics",
-      "url"      : "/blog/2019/10/10/federal-reserve-expanding-its-balance-sheet",
-      "date"     : "2019-10-10 00:00:00 -0500"
+      "tags"     : "private-keys,, public-keys,, mnemonic-recovery,, addresses",
+      "url"      : "/blog/2020/05/16/bitcoin-public-private-keys",
+      "date"     : "2020-05-16 00:00:00 -0500"
     } 
   
 ]

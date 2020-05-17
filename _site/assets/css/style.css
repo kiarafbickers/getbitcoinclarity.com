@@ -716,6 +716,11 @@ blockquote {
   height: auto;
 }
 
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
 .center {
   display: block;
   align-self: center;
@@ -740,7 +745,6 @@ td img{
 .blog-area h3, h4, h5, h6 {
 	margin-top: 10px;
 	font-family: 'Google Sans', Roboto, sans-serif;
-	color: #4988e7;
 }
 .blog-area p {
 	font-family: 'Open Sans', sans-serif;
