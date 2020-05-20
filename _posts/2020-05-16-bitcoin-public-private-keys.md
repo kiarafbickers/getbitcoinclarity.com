@@ -17,7 +17,7 @@ image:
 
 <br>
 
-Bitcoin uses cryptography to create a key pair that controls access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
+The Bitcoin network uses cryptography to create a key pair that controls access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
 
 ## What is the difference between private and public keys?
 
@@ -29,7 +29,7 @@ People can over-complicate explanations by trying to explain digital signatures,
 
 A **bitcoin private key** is simply a large (256 bits) secret number that ***allows bitcoin to be unlocked and sent***. This key authorizes the bitcoin transaction. It’s called a private key because it’s meant to be kept private and not shown to other people.
 
-A **bitcoin public key** is another large number but ***allows bitcoin to be locked and received***. A bitcoin address is a smaller version of the private key, and it's called a public key because it’s meant to be shared publicly with the person who is sending you bitcoin.
+A **bitcoin public key** is another large number but ***allows bitcoin to be locked and received***. A bitcoin address is a hashed smaller version of the private key. It’s called a public key because it’s meant to be shared publicly and enables you to receive funds.
 
 Although you don’t need to understand cryptomagic to believe that it works, sometimes understanding the *how* is the key to being able to trust it.
 
@@ -45,7 +45,7 @@ The real point of this magical curve is that it creates **trap door functionalit
 
 <img src="/assets/img/blog/01-bitcoin-keys/bitcoin-privatekey-publickey-address.png" alt="bitcoin address public key bitcoin clarity" class="center" width="60%">
 
-Keys can come in different formats there are uncompressed public keys, compressed public keys, and wif formats. But what's important to understand is that when you're providing someone with a public address (or QR code) you’re giving them the ability to lock bitcoin on your behalf.
+Public keys start with a 1 , 3 or bc1 because they come in different formats. There are uncompressed public keys, compressed public keys, and wif formats. But what’s important to understand is that when you’re providing someone with a public address (or QR code) you’re giving them the ability to lock bitcoin on your behalf.
 
 ## How are bitcoin keys and addresses generated?
 
@@ -53,7 +53,9 @@ Keys can come in different formats there are uncompressed public keys, compresse
 	<iframe src='https://www.youtube.com/embed//QR1HZYod7Vs' frameborder='0' allowfullscreen></iframe>
 </div>
 
-It's the job of the bitcoin wallet software to generate your wallet file, addresses, and keys. The private is generated from a part of the software that is specially designed to be able to handle big numbers and generate them at random. To get a feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html), but don’t use for any real keys you plan on using, this is just a tool for understanding.
+It's the job of the bitcoin wallet software to generate your wallet file, addresses, and keys. The private is generated from a part of the software that is specially designed to be able to handle big numbers and generate them at random.
+
+To get a feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html), but don’t use for any real keys you plan on using, this is just a tool for understanding. For real keys, you'll want to use Bitcoin Core or a hardware wallet.
 
 ## How many private keys are there?
 
@@ -65,7 +67,7 @@ There a lot, about 10 million million million million million million million mi
 
 <img src="/assets/img/blog/01-bitcoin-keys/bitcoin-privatekey-generation-mnemonic-recovery.png" alt="bitcoin mnemonic recovery phrase bitcoin clarity" class="center" width="90%">
 
-In the same way numbers can be expressed as words (zero) and numerical digits (0), keys are just really big numbers that have the same properties. Instead of using the word expression of the random number, the seed phrase uses a list of 12 or 24 random words to represent the random number.
+In the same way numbers can be expressed as words (zero) and numerical digits (0), keys are just a really long string of numbers that have the same properties. Instead of using the word expression of the random number, the seed phrase uses a list of 12 or 24 random words to represent the random number.
 
 The purpose of the mnemonic is to convert currency into human-readable words. So that the transfer of value can be written on to paper, or spoken over a cell phone and easily shared.
 
