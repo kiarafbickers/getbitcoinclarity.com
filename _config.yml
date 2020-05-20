@@ -101,8 +101,9 @@ pagination:
   # Without file extension
   indexpage: 'index'
 
+#no tag pages
 tag_page_layout: tag_page
-tag_page_dir: tag
+tag_page_dir: tags
 tag_permalink_style: pretty
 
 feed:
@@ -131,8 +132,9 @@ social:
     - https://github.com/kiarabickers
 
 defaults:
-  - scope:
-      path: ""
+  -
+    scope:
+      path: ''
     values:
       image: /assets/img/landing/kiara-bickers-safe.jpg
       author: kiarabickers

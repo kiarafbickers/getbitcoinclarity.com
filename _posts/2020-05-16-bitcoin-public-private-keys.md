@@ -4,7 +4,7 @@ title: "Bitcoin Private and Public Keys: The Basics"
 description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
 date: 2020-05-16
 last_modified_at: 2020-05-20
-tags: private-keys public-keys mnemonic-recovery addresses bitcoin-wallet
+tags: 
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/01-bitcoin-keys.jpg"

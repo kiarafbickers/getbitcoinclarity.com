@@ -3,7 +3,7 @@
     {
       "title"    : "Bitcoin Wallets: Getting Started With The Basics",
       "category" : "",
-      "tags"     : "wallet, hacks",
+      "tags"     : "",
       "url"      : "/blog/2020/05/17/what-is-a-bitcoin-wallet",
       "date"     : "2020-05-17 00:00:00 -0500"
     } ,
@@ -11,7 +11,7 @@
     {
       "title"    : "Bitcoin Private and Public Keys: The Basics",
       "category" : "",
-      "tags"     : "private-keys, public-keys, mnemonic-recovery, addresses, bitcoin-wallet",
+      "tags"     : "",
       "url"      : "/blog/2020/05/16/bitcoin-public-private-keys",
       "date"     : "2020-05-16 00:00:00 -0500"
     } 

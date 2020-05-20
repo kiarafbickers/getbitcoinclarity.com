@@ -1,15 +1,23 @@
 #Please use the main menu items under the "text"
 
 - text: The Book
-  url: https://getbitcoinclarity.sale/
+  url: https://shop.getbitcoinclarity.com/
   submenu:
+  - text: Buy It Now
+    url: http://shop.getbitcoinclarity.com/
   - text: Kind Tweets
-    url: /pages/kind-tweets
+    url: /book/reviews
 - text: Resources
-  url: /pages/resources
+  url: /resources
+  submenu:
+  - text: Blog
+    url: /resources
+  - text: Bitcoin Price
+    url: /markets/bitcoin
 - text: Sign In
   url: https://app.getbitcoinclarity.com/
 
+#/course/bitcoin-clarity-accelerator
 # - text: My Story
 #   url: /pages/about
 #   submenu:
