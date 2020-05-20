@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Bitcoin Private and Public Keys: The Basics"
+title: "Bitcoin Private Keys: Getting Started With The Basics"
 description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
 date: 2020-05-16
 last_modified_at: 2020-05-20
-tags: 
+tags:
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/01-bitcoin-keys.jpg"
@@ -17,7 +17,7 @@ image:
 
 <br>
 
-Bitcoin uses cryptography to create a key pair, that controls access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
+Bitcoin uses cryptography to create a key pair that controls access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
 
 ## What is the difference between private and public keys?
 
@@ -53,7 +53,7 @@ Keys can come in different formats there are uncompressed public keys, compresse
 	<iframe src='https://www.youtube.com/embed//QR1HZYod7Vs' frameborder='0' allowfullscreen></iframe>
 </div>
 
-It's the job of the bitcoin wallet software to generate your wallet file, addresses, and keys. The private is generated from a part of the software that is specially designed to be able to handle big numbers and generate them at random. To get feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html), but don’t use for any real keys you plan on using, this is just a tool for understanding.
+It's the job of the bitcoin wallet software to generate your wallet file, addresses, and keys. The private is generated from a part of the software that is specially designed to be able to handle big numbers and generate them at random. To get a feel for this you can play around with [bitaddress.org](https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html), but don’t use for any real keys you plan on using, this is just a tool for understanding.
 
 ## How many private keys are there?
 
@@ -73,4 +73,4 @@ To add some security a password can also be added to the phrase.
 
 ## What is the best way to store private keys safely?
 
-The most secure way to store private keys safe is offline in cold storage, on a dedicated hardware device with your recovery mnemonic stored separately.
+The most secure way to store private keys safely is offline in cold storage, on a dedicated hardware device with your recovery mnemonic stored separately.
