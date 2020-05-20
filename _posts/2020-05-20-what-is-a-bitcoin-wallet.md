@@ -3,7 +3,7 @@ layout: post
 title: "Bitcoin Wallets: Getting Started With The Basics"
 description: A bitcoin wallet is a program that stores bitcoin private keys. Learn the basics of storing your bitcoin, wallet types, cold wallets, hot wallets, custodial and non-custodial wallets and how to use bitcoin more securely.
 date: 2020-05-17
-tags: 
+tags:
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/02-bitcoin-wallets.jpg"
@@ -23,21 +23,21 @@ image:
 
 ## What is a bitcoin wallet?
 
-Simply put, a **bitcoin wallet** is a program that stores your private keys.
+Simply put, a **wallet** is a program that stores your private keys.
 
 Wallet software also manages the public keys and bitcoin addresses that enable users to send and receive bitcoin. Because bitcoin only exists on the blockchain, wallets don't technically store your bitcoin. Your [private keys](/blog/2020/05/16/bitcoin-public-private-keys) provide access to your bitcoin and your wallet stores your private keys.
 
-## What is the best bitcoin wallet?
+## What is the best wallet in 2020?
 
-<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-core-screeshot.png" alt="bitcoin wallet digital wallet physical wallet" class="center" width="100%">
+<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-core-screeshot.png" alt="bitcoin digital wallet physical wallet" class="center" width="100%">
 
-[Bitcoin Core](https://bitcoincore.org/en/download/) is the best wallet available. Bitcoin Core may not seem sexy, since it's for the more advanced "power users", but it's the [highest performing](https://blog.lopp.net/bitcoin-node-performance-sync-tests/), battle-tested full node you can run. Bitcoin Core can be used with a [hardware wallet](https://github.com/bitcoin-core/HWI) or privacy wallet.
+[Bitcoin Core](https://bitcoincore.org/en/download/) is the best wallet available. Bitcoin Core may not seem sexy, since it's for the more advanced "power users", but it's the [highest performing](https://blog.lopp.net/bitcoin-node-performance-sync-tests/), battle-tested full node you can run, and it's the only way to use Bitcoin peer-to-peer. Bitcoin Core can be used with a [hardware wallet](https://github.com/bitcoin-core/HWI) or privacy wallet.
 
 But not all users want to run a full node.
 
 What if you're looking for something a little scaled back?
 
-## How do I get and use a bitcoin wallet?
+## How do I get and use a wallet?
 
 1. Step 1: Choose which wallet app you're going to use, then download the software. If you're using a mobile device you can download a mobile app from the app store.
 2. Step 2: Open the software to create a wallet, private key, and mnemonic recovery phrase.
@@ -63,7 +63,7 @@ With cash, a physical wallet can hold value in your wallet directly. Whereas a b
 
 Unlike a physical wallet that has to be carried around, your bitcoin wallet has all the properties of being digital. But because your keys are just data, they sent over the internet or spoken as human-readable words over the phone. Bitcoin is easier to send, but also easier for hackers to steal.
 
-## What types of bitcoin wallets are there?
+## What types of wallets are there?
 
 There are wallets that run on your phone (**mobile wallets**), wallets that run on your desktop (**desktop wallets**), and wallets that run in the browser (**web wallets**). There's also the more novel paper wallet or brain wallet, that best to just stay away from.
 
@@ -77,4 +77,4 @@ There are pros and cons to each. Hot wallets are generally more convenient, they
 
 ## What are custodial and non-custodial wallets?
 
-Most people start off buying on bitcoin on an exchange, which holds your funds for you in a **custodial wallet**, where the exchange is taking custody of your private keys. When you move your funds off of an exchange into a wallet you control, you’re using a non-custodial wallet. **Non-custodial wallets** allow you to store your own private keys.
+Most people start off with their first buy and sell of bitcoin on an exchange, which holds your funds for you in a **custodial wallet**, where the exchange is taking custody of your private keys. When you move your funds off of an exchange into a wallet you control, you’re using a non-custodial wallet. **Non-custodial wallets** allow you to store your own private keys.
