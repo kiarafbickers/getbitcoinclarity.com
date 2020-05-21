@@ -12,6 +12,12 @@
     <!-- seo -->
     {% seo %}
 
+    {% if page.isfaq %}
+    <html lang="{{ page.lang | default: site.lang | default: " en" }}" dir="ltr"  itemscope itemtype="https://schema.org/FAQPage">
+    {% else %}
+    <html lang="{{ page.lang | default: site.lang | default: " en" }}" dir="ltr">
+    {% endif %}
+
     <!-- feed_meta -->
     {% feed_meta %}
 

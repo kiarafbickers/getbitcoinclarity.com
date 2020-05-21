@@ -7,7 +7,7 @@ tags:
 keywords: bitcoin wallet, bitcoin wallet for beginners, best bitcoin wallet 2020, bitcoin wallet guide
 categories: [blog video]
 author: kiarabickers
-post_image: "/assets/img/blog/thumbnails/02-bitcoin-wallets.jpg"
+post_image: "/assets/img/blog/thumbnails/22-choosing-a-bitcoin-wallet.jpg"
 post_video: "https://www.youtube.com/embed/mC4qxRu6ZmY"
 seo:
   type: BlogPosting
@@ -21,16 +21,6 @@ image:
 ---
 
 <br>
-
-## What is a bitcoin wallet?
-
-Simply put, a **wallet** is a program that stores your private keys. There many different types of bitcoin and cryptocurrency wallets, all with different trade-offs, risks, and security profiles.
-
-## How do bitcoin wallets work?
-
-Because bitcoin only exists on the blockchain, wallets don’t technically store your bitcoin. Your [private keys](/blog/2020/05/16/bitcoin-public-private-keys) provide access to your bitcoin and your wallet stores your private keys.
-
-Wallets also manage the derived public keys, bitcoin addresses, and QR codes that enable users to send and receive bitcoin. For key management wallet software all implement different versions of hierarchical deterministic keys (BIP32) which organizes the parent and child keys into a hierarchical structure, where the mnemonic recovery can seed the root of the wallet and all of its associated keys.
 
 ## What is the best bitcoin wallet in 2020?
 
