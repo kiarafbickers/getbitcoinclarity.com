@@ -2,7 +2,8 @@
 layout: article
 title: "Why I Wrote Bitcoin Clarity"
 date: 2019-07-07
-tags: purpose
+tags:
+keywords: bitcoin clarity, bitcoin book, amazon bitcoin clarity, kiara bickers, kiara bickers bitcoin clarity, kiara bitcoin, clarity book, my clarity book
 categories: [product]
 author: "kiara bickers"
 post_image: "/assets/img/blog/bitcoin-clarity-book.jpg"
@@ -73,11 +74,11 @@ I sketched out hundreds images to visually explain everything about how it works
 
 I worked with Bitcoin developers to create the mental models that accurately map to the technical details.
 
-<img class="main-responsive center" src="/assets/img/blog/bitcoin-clarity-mining-02.jpg"/>
+<img class="main-responsive center" alt="bitcoin clarity original drawing" src="/assets/img/blog/bitcoin-clarity-mining-02.jpg"/>
 
 I worked with traders to cover to the section on markets and mindset.
 
-<img class="main-responsive center" src="{{post.baseurl}}/assets/img/blog/bitcoin-clarity-markets-03.jpg"/>
+<img class="main-responsive center" alt="bitcoin clarity original drawing" src="/assets/img/blog/bitcoin-clarity-markets-03.jpg"/>
 
 Then I used systems thinking to structure the book.
 
@@ -87,6 +88,6 @@ Regular people don't want an expert to tell them what Bitcoin is, they want to b
 
 Without code, economics, or cryptography.
 
-[The book is available for preorder here](https://getbitcoinclarity.sale/product/book/).
+[The book is available here](https://getbitcoinclarity.sale/product/book/).
 
 And for people who want [group training I've created that here](https://www.getbitcoinclarity.com) as well.

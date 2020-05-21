@@ -4,6 +4,7 @@ title: "Bitcoin Wallets: Getting Started With The Basics"
 description: A bitcoin wallet is a program that stores bitcoin private keys. Learn the basics of storing your bitcoin, wallet types, cold wallets, hot wallets, custodial and non-custodial wallets and how to use bitcoin more securely.
 date: 2020-05-17
 tags:
+keywords: bitcoin wallet, bitcoin wallet for beginners, best bitcoin wallet 2020, bitcoin wallet guide
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/02-bitcoin-wallets.jpg"
@@ -23,43 +24,39 @@ image:
 
 ## What is a bitcoin wallet?
 
-Simply put, a **wallet** is a program that stores your private keys.
+Simply put, a **wallet** is a program that stores your private keys. There many different types of bitcoin and cryptocurrency wallets, all with different trade-offs, risks, and security profiles.
 
-Wallet software also manages the public keys and bitcoin addresses that enable users to send and receive bitcoin. Because bitcoin only exists on the blockchain, wallets don't technically store your bitcoin. Your [private keys](/blog/2020/05/16/bitcoin-public-private-keys) provide access to your bitcoin and your wallet stores your private keys.
+## How do bitcoin wallets work?
 
-## What is the best wallet in 2020?
+Because bitcoin only exists on the blockchain, wallets don’t technically store your bitcoin. Your [private keys](/blog/2020/05/16/bitcoin-public-private-keys) provide access to your bitcoin and your wallet stores your private keys.
 
-<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-core-screeshot.png" alt="bitcoin digital wallet physical wallet" class="center" width="100%">
+Wallets also manage the derived public keys, bitcoin addresses, and QR codes that enable users to send and receive bitcoin. For key management wallet software all implement different versions of hierarchical deterministic keys (BIP32) which organizes the parent and child keys into a hierarchical structure, where the mnemonic recovery can seed the root of the wallet and all of its associated keys.
 
-[Bitcoin Core](https://bitcoincore.org/en/download/) is the best wallet available. Bitcoin Core may not seem sexy, since it's for the more advanced "power users", but it's the [highest performing](https://blog.lopp.net/bitcoin-node-performance-sync-tests/), battle-tested full node you can run, and it's the only way to use Bitcoin peer-to-peer. Bitcoin Core can be used with a [hardware wallet](https://github.com/bitcoin-core/HWI) or privacy wallet.
+## What is the best bitcoin wallet in 2020?
 
-But not all users want to run a full node.
+<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-core-screeshot.png" alt="bitcoin core screeshot" class="center" width="100%">
 
-What if you're looking for something a little scaled back?
+[Bitcoin Core](https://bitcoincore.org/en/download/) is the best wallet available. If there was an official bitcoin wallet this would be it, and it's free. Bitcoin Core may not be the most user friendly since it’s for the more advanced “power users”, but it’s the [highest performing](https://blog.lopp.net/bitcoin-node-performance-sync-tests/) full node you can run, and it’s the only way to use Bitcoin peer-to-peer. Bitcoin Core can also be used with a [hardware wallet](https://github.com/bitcoin-core/HWI) or privacy wallet.
 
-## How do I get and use a wallet?
+## So what is the best bitcoin wallet for beginners?
 
-1. Step 1: Choose which wallet app you're going to use, then download the software. If you're using a mobile device you can download a mobile app from the app store.
-2. Step 2: Open the software to create a wallet, private key, and mnemonic recovery phrase.
-3. Step 3: Write down your mnemonic and store it someplace safe.
-4. Step 4: Create a receive address and QR code. At this point you're ready to receive bitcoin.
-5. Step 5: Share your wallet address or QR code to accept bitcoin.
+The trust is that there isn't a single best wallet it is about trade-offs.
 
-**TIP:** Make sure you're set up with a Bitcoin BTC wallet and not a Bitcoin Cash BCH cryptocurrency wallet. Bitcoin Cash is not Bitcoin, but Bitcoin Cash payments look a lot like bitcoin and it can potentially be a very expensive mistake to confuse the two.
-
-**SECOND TIP:** From a new user perspective, the experience of using bitcoin can feel like other online wallets or online payment methods. Yes, we use Bitcoin from a digital wallet but Bitcoin is also a **digital currency**. The properties of Bitcoin isn't the same as loyalty cards, Apple pay, or even Samsung pay. Bitcoin may be the 2089 future of field communication NFC contactless payments, but bitcoin wallets have different properties from other mobile payment apps users are used to.
+Welcome to the complete beginners' guide to wallets! I'll start with the basics.
 
 ## What is the difference between a bitcoin app and other payment apps?
 
-With most major payment apps every transaction is covered by the bank’s fraud protection. Meaning that if you someone steals your funds, or if your funds are stolen, you have a company waiting in the wings to bail you out. This is not the case with cryptocurrency, bitcoin can be an adversarial environment.
+With most major payment apps every transaction is covered by the bank’s fraud protection. Meaning that if you someone steals your funds, or if you have been a victim of fraud, you have a company waiting in the wings to bail you out. This is not the case with cryptocurrency.
 
-With any bitcoin wallet, you're taking complete control of your funds. This means that if you lose those funds there is no one that can help you get them back. This fact incentives hackers to target cryptocurrency since they get to keep everything they manage to steal. The risk of having funds stolen in bitcoin with mobile wallets than with any other type of wallet because it's always connected to the internet, in arms reach of bad actors.
+With any bitcoin wallet, you're taking complete control of your funds. This means also that if you lose those funds there is no one that can help you get them back. This fact incentives hackers to target cryptocurrency since they get to keep everything they steal.
+
+**TIP:** The risk of having funds stolen in bitcoin with mobile wallets than with any other type of wallet because it’s always connected to the internet, in arms reach of bad actors. Consider avoiding mobile wallets if you want to maximize security.
 
 ## What is the difference between a bitcoin wallet and a physical wallet?
 
-<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-wallet-physical-wallet-digital-wallet.png" alt="bitcoin wallet digital wallet physical wallet" class="center" width="60%">
+<img src="/assets/img/blog/02-bitcoin-wallets/bitcoin-wallet-physical-wallet-digital-wallet.png" alt="digital wallet physical wallet" class="center" width="60%">
 
-With cash, a physical wallet can hold value in your wallet directly. Whereas a bitcoin wallet only ever stores access to your funds on the blockchain via your private keys. This works a bit like your credit or debit card has access to the funds in a bank. In Bitcoin, your private keys give you access to your fund on the blockchain, but without any physical card.
+With cash, a physical wallet can hold value in your wallet directly. Whereas a bitcoin wallet only ever stores access to your funds on the blockchain via your private keys. This works a bit like your credit or debit card has access to the funds in a bank account. In Bitcoin, your private keys give you access to your fund on the blockchain, but without any physical card.
 
 Unlike a physical wallet that has to be carried around, your bitcoin wallet has all the properties of being digital. But because your keys are just data, they sent over the internet or spoken as human-readable words over the phone. Bitcoin is easier to send, but also easier for hackers to steal.
 
@@ -78,3 +75,15 @@ There are pros and cons to each. Hot wallets are generally more convenient, they
 ## What are custodial and non-custodial wallets?
 
 Most people start off with their first buy and sell of bitcoin on an exchange, which holds your funds for you in a **custodial wallet**, where the exchange is taking custody of your private keys. When you move your funds off of an exchange into a wallet you control, you’re using a non-custodial wallet. **Non-custodial wallets** allow you to store your own private keys.
+
+## Once I choose a wallet, how do I get one and use it?
+
+1. Step 1: Choose which wallet app you're going to use, then download the software. If you're using a mobile device you can download a mobile app from the app store.
+2. Step 2: Open the software to create a wallet, private key, and mnemonic recovery phrase.
+3. Step 3: Write down your mnemonic and store it someplace safe.
+4. Step 4: Create a receive address and QR code. At this point you're ready to receive bitcoin.
+5. Step 5: Share your wallet address or QR code to accept bitcoin.
+
+**TIP:** Make sure you're set up with a Bitcoin BTC wallet and not a Bitcoin Cash BCH cryptocurrency wallet. Bitcoin Cash is not Bitcoin, but Bitcoin Cash payments look a lot like bitcoin and it can potentially be a very expensive mistake to confuse the two.
+
+**SECOND TIP:** From a new user perspective, the experience of using bitcoin can feel like other online wallets or online payment methods. Yes, we use Bitcoin from a digital wallet but Bitcoin is also a **digital currency**. The properties of Bitcoin isn't the same as loyalty cards, Apple pay, or even Samsung pay. Bitcoin may be the 2089 future of field communication NFC contactless payments, but bitcoin wallets have different properties from other mobile payment apps users are used to.
