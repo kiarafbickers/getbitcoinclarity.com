@@ -4,7 +4,6 @@ title: "Bitcoin Wallets: Getting Started With The Basics"
 description: A bitcoin wallet is a program that stores bitcoin private keys. Learn the basics of storing your bitcoin, wallet types, cold wallets, hot wallets, custodial and non-custodial wallets and how to use bitcoin more securely.
 date: 2020-05-17
 last_modified_at: 2020-05-21
-tags:
 keywords: bitcoin wallet, bitcoin wallet for beginners, best bitcoin wallet 2020, bitcoin wallet guide
 categories: [blog video]
 author: kiarabickers

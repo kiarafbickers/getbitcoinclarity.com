@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "What is Bitcoin and How Does it Work? [Easy Understanding]"
-description:
+description: Bitcoin is a cryptocurrency, a coin, and a peer-to-peer network. Learn how to understand Bitcoin, the blockchain, and it's ledger simply with mental models.
 date: 2020-05-21
-tags:
 keywords: what is bitcoin, what is bitcoin and how does it work, understand bitcoin
 categories: [blog video]
 author: kiarabickers
