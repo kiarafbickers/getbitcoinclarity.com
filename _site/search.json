@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "What is Bitcoin and How Does it Work? [Easy Understanding]",
+      "category" : "",
+      "tags"     : "",
+      "url"      : "/blog/2020/05/21/what-is-bitcoin",
+      "date"     : "2020-05-21 00:00:00 -0500"
+    } ,
+  
+    {
       "title"    : "Bitcoin Wallets: Getting Started With The Basics",
       "category" : "",
       "tags"     : "",
@@ -9,10 +17,10 @@
     } ,
   
     {
-      "title"    : "Bitcoin Private Keys: Getting Started With The Basics",
+      "title"    : "Bitcoin Private Keys, Public Keys, and Addresses: Getting Started With The Basics",
       "category" : "",
       "tags"     : "",
-      "url"      : "/blog/2020/05/16/bitcoin-public-private-keys",
+      "url"      : "/blog/2020/05/16/what-is-a-bitcoin-private-key",
       "date"     : "2020-05-16 00:00:00 -0500"
     } 
   
