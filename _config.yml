@@ -5,7 +5,7 @@ description: "Bitcoin Clarity: The Complete Beginners Guide by Kiara Bickers Exp
 
 # URL
 baseurl: ""
-url: "https://www.getbitcoinclarity.com"
+url: "https://getbitcoinclarity.com"
 facebook_url: "https://www.facebook.com/kiarabickersfan/"
 
 permalink: "/blog/:year/:month/:day/:title"
