@@ -3,7 +3,7 @@ layout: post
 title: "Bitcoin Mining: What is It and How Does It Work?"
 description:
 date: 2020-01-01
-tags: bitcoin mining, miner bitcoin, proof of work
+keywords: bitcoin mining, miner bitcoin, proof of work, how bitcoin mining works, what does mining a bitcoin mean, why is bitcoin mining so hard
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/"
@@ -22,6 +22,8 @@ image:
 # Bitcoin Mining: What is It and How Does It Work?
 
 What is mining?
+
+what does mining a bitcoin mean?
 
 How does Bitcoin make money?
 

@@ -3,7 +3,7 @@ layout: post
 title: "UTXOs: What is It and How Does It Work?"
 description:
 date: 2020-01-01
-keywords: utxo, bitcoin utxo, utxo model
+keywords: utxo, bitcoin utxo, utxo model, a bitcoin
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/"

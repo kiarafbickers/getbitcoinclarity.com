@@ -2,8 +2,7 @@
 layout: article
 title: "Why I Wrote Bitcoin Clarity"
 date: 2019-07-07
-tags:
-keywords: bitcoin clarity, bitcoin book, amazon bitcoin clarity, kiara bickers, kiara bickers bitcoin clarity, kiara bitcoin, clarity book, my clarity book
+keywords: bitcoin clarity, bitcoin book, amazon bitcoin clarity, kiara bickers, kiara bickers bitcoin clarity, kiara bitcoin, clarity book, my clarity book, best bitcoin books, bitcoin info, bitcoin learning resources
 categories: [product]
 author: "kiara bickers"
 post_image: "/assets/img/blog/bitcoin-clarity-book.jpg"

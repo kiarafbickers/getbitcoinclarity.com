@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "What is Bitcoin and How Does it Work? [Easy Understanding]"
-description: Bitcoin is a cryptocurrency, a coin, and a peer-to-peer network. Learn how to understand Bitcoin, the blockchain, and it's ledger simply with mental models.
+description: Bitcoin is a cryptocurrency, a coin, and a P2P network. Learn about Bitcoin as a system, what blocks on the "block" chain are, and how its ledger is shared.
 date: 2020-05-21
-keywords: what is bitcoin, what is bitcoin and how does it work, understand bitcoin
+keywords: what is bitcoin, what is bitcoin and how does it work, timestamp server bitcoin, what is a block bitcoin, what is block in blockchain, bitcoin block structure, blockchain block, how bitcoin works, how does bitcoin work, bitcoin how it works, getting started with bitcoin, learn about bitcoin, bitcoin how does it work, about bitcoin and how it works, bitcoin is a p2b network of nodes, bitcoin what it is and how it works, where bitcoin store data
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/04-timechain-not-blockchain.jpg"
@@ -33,6 +33,8 @@ Yes, magic internet money can be a bit complex but it doesn't need to be complic
 
 Each computer in the Bitcoin network that runs the full bitcoin software is referred to as a full node maintains a copy of the ledger. This ledger is called the blockchain, and the value that is transferred on it—is denominated in bitcoin.
 
+## What is a bitcoin?
+
 Bitcoin with a capital refers to the protocol and lowercase b refers to the digital unit that is the medium of exchange on the blockchain.
 
 <img src="/assets/img/blog/03-what-is-bitcoin/blockchain-bitcoin-from-bitcoin-clarity.png" alt="bitcoin block from bitcoin clarity" class="center" width="75%">
@@ -41,7 +43,7 @@ This network was first launched in 2009, by the pseudonyms creator Satoshi Nakam
 
 To really understand Bitcoin we have to ask the question that cypherpunks were asking themselves before it was created. How do we create a way to transfer value securely over the insecure internet?
 
-At the time this was a difficult problem to solve because there was no known way to get computers distributed all over the world, to come to an agreed-upon time-stamp and order for transactions to be received. If you read the original Bitcoin white paper, you'll see that bitcoin was never referred to as a blockchain but instead it was referred to as a decentralized time-stamp server or timechain. Bitcoin miners and full nodes create a system capable of keeping time without a third party.
+At the time this was a difficult problem to solve because there was no known way to get computers distributed all over the world, to come to an agreed-upon timestamp and order for transactions to be received. If you read the original Bitcoin white paper, you'll see that bitcoin was never referred to as a blockchain but instead it was referred to as a decentralized timestamp server or timechain. Bitcoin miners and full nodes create a system capable of keeping time without a third party.
 
 ## What is the Blockchain in simple terms?
 
@@ -53,9 +55,11 @@ Because all of this information is digital the concept of blocks and chains isn'
 
 A **block** is a group of transactions that have been confirmed at the same time.
 
-###### The raw data inside of block:
+Take a look at the raw data for a block in the blockchain:
 
 <img src="/assets/img/blog/03-what-is-bitcoin/bitcoin-block-from-bitcoin-clarity.png" alt="bitcoin block from bitcoin clarity" class="center" width="75%">
+
+Blocks are where Bitcoin stores data. The bitcoin block structure is comprised of: a version, previous block hash, a Merkle root, timestamp, difficulty, nonce, transaction count, and most importantly the transaction list.
 
 Every ledger needs to properly order transactions. If I'm paying you for a good or service we need a way of knowing when the money has moved from wallet to yours. We need to know when the funds are not mine anymore so that you can legally spend them.
 

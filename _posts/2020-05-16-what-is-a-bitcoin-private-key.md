@@ -4,7 +4,7 @@ title: "Bitcoin Private Keys, Public Keys, and Addresses: Getting Started With T
 description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
 date: 2020-05-16
 last_modified_at: 2020-05-21
-keywords: bitcoin private keys, bitcoin private, bitcoin keys
+keywords: bitcoin private keys, bitcoin private, bitcoin key, bitcoin keys, what is a private key, what is a public key, bitcoin public key and private key, bitcoin public key from private key, how to generate private key from bitcoin address, how to get private key from bitcoin address
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/01-bitcoin-keys.jpg"

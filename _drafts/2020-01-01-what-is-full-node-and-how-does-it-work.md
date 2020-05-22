@@ -3,7 +3,7 @@ layout: post
 title: "Bitcoin Full Nodes: What is It and How Does It Work?"
 description:
 date: 2020-01-01
-tags: bitcoin full node, bitcoin node, full node wallet
+tags: bitcoin full node, bitcoin node, full node wallet, what is a node, bitcoin network nodes, number of bitcoin nodes
 categories: [blog video]
 author: kiarabickers
 post_image: "/assets/img/blog/thumbnails/"
@@ -21,6 +21,7 @@ image:
 
 # Bitcoin Full Nodes: What is It and How Does It Work?
 
+What is a node?
 
 What is a full node in Bitcoin?
 

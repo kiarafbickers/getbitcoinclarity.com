@@ -6,11 +6,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
-    <meta name="keywords" content="{% if page.keywords %}{{ page.keywords}}{% else %}{{ site.keywords }}{% endif %}">
 
     <!-- seo -->
-    {% seo %}
+    	{% seo %}
 
     {% if page.isfaq %}
     <html lang="{{ page.lang | default: site.lang | default: " en" }}" dir="ltr"  itemscope itemtype="https://schema.org/FAQPage">
@@ -19,8 +17,8 @@
     {% endif %}
 
     <!-- feed_meta -->
+    
     {% feed_meta %}
-
     <!-- google-tag-head.html -->
     {% include google-tag-head.html %}
 
