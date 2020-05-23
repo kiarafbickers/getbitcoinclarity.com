@@ -8,10 +8,19 @@
   - text: Kind Tweets
     url: /book/reviews
 - text: Resources
-  url: /resources
+  url: 
   submenu:
-  - text: Blog
-    url: /resources
+  - text: Articles
+    url: /articles
+  - text: Blog Videos
+    url: /blog
+- text: Data
+  url:
+  submenu:
+  - text: FED Total Assets
+    url: /data/fed-total-assets
+  - text: US10Y Chart
+    url: /data/US10Y
   - text: Bitcoin Price
     url: /markets/bitcoin
 - text: Sign In
