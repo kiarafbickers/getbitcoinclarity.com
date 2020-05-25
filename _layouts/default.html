@@ -8,17 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- seo -->
-    	{% seo %}
-
-    {% if page.isfaq %}
-    <html lang="{{ page.lang | default: site.lang | default: " en" }}" dir="ltr"  itemscope itemtype="https://schema.org/FAQPage">
-    {% else %}
-    <html lang="{{ page.lang | default: site.lang | default: " en" }}" dir="ltr">
-    {% endif %}
+    {% seo %}
 
     <!-- feed_meta -->
-    
     {% feed_meta %}
+
     <!-- google-tag-head.html -->
     {% include google-tag-head.html %}
 
@@ -106,6 +100,7 @@
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
     <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icofont.min.css">
 </head>
 
 <body>

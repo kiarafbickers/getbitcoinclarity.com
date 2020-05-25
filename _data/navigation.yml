@@ -1,19 +1,16 @@
 #Please use the main menu items under the "text"
 
 - text: The Book
-  url: https://shop.getbitcoinclarity.com/
-  submenu:
-  - text: Buy It Now
-    url: http://shop.getbitcoinclarity.com/
-  - text: Kind Tweets
-    url: /book/reviews
+  url: /book
+
 - text: Resources
-  url: 
+  url:
   submenu:
-  - text: Articles
+  - text: Micro-Articles
     url: /articles
   - text: Blog Videos
     url: /blog
+
 - text: Data
   url:
   submenu:
@@ -23,6 +20,10 @@
     url: /data/US10Y
   - text: Bitcoin Price
     url: /markets/bitcoin
+
+# - text: About
+#   url: /about
+
 - text: Sign In
   url: https://app.getbitcoinclarity.com/
 
