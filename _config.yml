@@ -41,7 +41,7 @@ collections:
   interviews:
     output: true
   focuses:
-    output: true
+    output: false
 
 ########################################################
 # Site configuration for the Jekyll 3 Pagination Gem
