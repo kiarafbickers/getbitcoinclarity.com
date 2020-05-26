@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What is Bitcoin and How Does it Work? [Easy Understanding]"
-description: Bitcoin is a cryptocurrency, a coin, and a P2P network. Learn about Bitcoin as a system, what blocks on the "block" chain are, and how its ledger is shared.
+description: Bitcoin is a cryptocurrency, a coin, and a P2P network. Learn about Bitcoin as a system, what blocks on the blockchain are, and how its ledger is shared.
 date: 2020-05-21
 keywords: what is bitcoin, what is bitcoin and how does it work, timestamp server bitcoin, what is a block bitcoin, what is block in blockchain, bitcoin block structure, blockchain block, how bitcoin works, how does bitcoin work, bitcoin how it works, getting started with bitcoin, learn about bitcoin, bitcoin how does it work, about bitcoin and how it works, bitcoin is a p2b network of nodes, bitcoin what it is and how it works, where bitcoin store data
 categories: [blog video]

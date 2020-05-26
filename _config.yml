@@ -136,7 +136,7 @@ defaults:
     scope:
       path: ''
     values:
-      image: /assets/img/landing/kiara-bickers-safe.jpg
+      image: /assets/img/landing/kiara-bickers-safe-censor.jpg
       author: kiarabickers
 
 jekyll_analytics:
