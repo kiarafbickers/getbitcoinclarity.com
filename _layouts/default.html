@@ -15,13 +15,11 @@
 
     <!-- Site Title -->
 	<title>
-     {% if page.title_long %}
-        {{ page.title_long }}
-	   {% else if page.title %}
-		   {{ page.title }} - {{ site.brand-name }}
-	   {% else %}
-		   {{ site.title }}
-	   {% endif %}
+    {% if page.title %}
+      {{ page.title }}
+	  {% else %}
+		  {{ site.title }}
+	  {% endif %}
 	</title>
 
     <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">

@@ -1,7 +1,6 @@
 ---
 layout: post
-title:
-title_long: "Bitcoin Private Keys, Public Keys, and Addresses: The Basics"
+title: "Bitcoin Private Keys, Public Keys, and Addresses: The Basics"
 description: Everything you need to know on Bitcoin Private and Public Keys. Learn about Bitcoin Private Keys and Bitcoin Public Keys, their differences and how they are each used.
 date: 2020-05-16
 last_modified_at: 2020-05-21
