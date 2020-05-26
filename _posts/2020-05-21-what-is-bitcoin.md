@@ -39,7 +39,7 @@ Bitcoin with a capital refers to the protocol and lowercase b refers to the digi
 
 <img src="/assets/img/blog/03-what-is-bitcoin/blockchain-bitcoin-from-bitcoin-clarity.png" alt="bitcoin block from bitcoin clarity" class="center" width="75%">
 
-This network was first launched in 2009, by the pseudonyms creator Satoshi Nakamoto. It is the first cryptocurrency, and the first digital currency to successfully implement the ability to use public-key cryptography for sending and receiving (or locking and unlocking) transactions instead of its traditional use in encrypting and decrypting messages. [Private keys](/blog/2020/05/16/what-is-a-bitcoin-private-key) stored in [Bitcoin wallets](/2020/05/17/what-is-a-bitcoin-wallet) authorize the transfer of bitcoin for transactions created on the blockchain.
+This network was first launched in 2009, by the pseudonyms creator Satoshi Nakamoto. It is the first cryptocurrency, and the first digital currency to successfully implement the ability to use public-key cryptography for sending and receiving (or locking and unlocking) transactions instead of its traditional use in encrypting and decrypting messages. [Private keys](/blog/2020/05/16/what-is-a-bitcoin-private-key) stored in [Bitcoin wallets](/blog/2020/05/17/what-is-a-bitcoin-wallet) authorize the transfer of bitcoin for transactions created on the blockchain.
 
 To really understand Bitcoin we have to ask the question that cypherpunks were asking themselves before it was created. How do we create a way to transfer value securely over the insecure internet?
 
