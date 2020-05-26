@@ -21,8 +21,8 @@
   - text: Bitcoin Price
     url: /markets/bitcoin
 
-# - text: About
-#   url: /about
+- text: About
+  url: /about
 
 - text: Sign In
   url: https://app.getbitcoinclarity.com/
