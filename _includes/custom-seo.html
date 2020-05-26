@@ -1,4 +1,7 @@
-{% if page.title %}
+{% if page.title-long %}
+<meta name="title" content="{{ page.title_long }}">
+<meta property="og:title" content="{{ page.title_long }}">
+{% else if page.title %}
 <meta name="title" content="{{ page.title }}">
 <meta property="og:title" content="{{ page.title }}">
 {% else %}

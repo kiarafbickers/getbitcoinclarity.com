@@ -15,7 +15,9 @@
 
     <!-- Site Title -->
 	<title>
-	   {%if page.title %}
+     {% if page.title_long %}
+        {{ page.title_long }}
+	   {% else if page.title %}
 		   {{ page.title }} - {{ site.brand-name }}
 	   {% else %}
 		   {{ site.title }}
