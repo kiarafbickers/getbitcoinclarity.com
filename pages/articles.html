@@ -4,6 +4,7 @@ pagination:
   enabled: true
 permalink: /articles
 title: Articles
+description: Bitcoin Clarity articles are devoted to helping you develop an understanding of what bitcoin really is.
 ---
 
 <div class="row">
@@ -14,7 +15,7 @@ title: Articles
     </div>
 </div>
 <div class="row">
-    {% for article in site.articles %}
+    {% for article in paginator.articles %}
     <div class="col-xl-4 col-lg-4 col-md-6" style="margin-bottom:20px;">
         <a href="{{post.url}}">
           <div class="blog-wrapper home-blog-wrapper">
@@ -43,41 +44,3 @@ title: Articles
 <div class="row">
     {% include pagination.html %}
 </div>
-
-<!-- <div class="row">
-    <div class="col-xl-12 text-center" style="padding-top:30px;">
-        <div class="section-title service-title">
-            <h2>Customer Interviews</h2>
-        </div>
-    </div>
-</div>
-<div class="row">
-    {% for interview in site.interviews %}
-    <div class="col-xl-4 col-lg-4 col-md-6" style="margin-bottom:20px;">
-        <a href="{{post.url}}">
-          <div class="blog-wrapper home-blog-wrapper">
-              <div class="blog-thumb">
-                  <img src="{{interview.post_image}}" alt="{{interview.title}}"/>
-              </div>
-              <div class="meta-info">
-                  <ul>
-                      <li class="posts-time">{{interview.date | date_to_long_string}}</li>
-                  </ul>
-              </div>
-              <div class="blog-content home-blog">
-                  <h2 class="blog-title">
-                      <a href="{{interview.url}}">{{interview.title}}</a>
-                  </h2>
-                  <p>{{excerpt | truncatewords:"25"}}</p>
-              </div>
-              <div class="link-box home-blog-link">
-                  <a href="{{interview.url}}">Read More</a>
-              </div>
-          </div>
-        </a>
-    </div>
-    {% endfor %}
-</div>
-<div class="row">
-    {% include pagination.html %}
-</div> -->

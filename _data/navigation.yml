@@ -17,7 +17,7 @@
   - text: FED Total Assets
     url: /data/fed-total-assets
   - text: US10Y Chart
-    url: /data/US10Y
+    url: /data/us10y
   - text: Bitcoin Price
     url: /markets/bitcoin
 
