@@ -20,11 +20,11 @@
 {% endif %}
 
 {% if page.description %}
-<meta name="description" property="{{ page.description }}">
+<meta name="description" content="{{ page.description }}">
 <meta property="og:description" content="{{ page.description }}">
 <meta name="twitter:description" content="{{ page.description }}">
 {% else %}
-<meta name="description" property="{{ site.description }}">
+<meta name="description" content="{{ site.description }}">
 <meta property="og:description" content="{{ site.description }}">
 <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
@@ -34,8 +34,8 @@
 {% endif %}
 
 <meta name="twitter:site"    content="@{{ site.twitter.username }}">
-<meta name="twitter:creator"    content="@{{ site.twitter.username }}">
-<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:creator" content="@{{ site.twitter.username }}">
+<meta name="twitter:card"    content="summary_large_image">
 {% if page.post_image %}
 <meta name="twitter:image" content="{{ site.url }}{{ page.post_image }}">
 {% else %}
@@ -52,21 +52,21 @@
 {% endif %}
 
 {% if page.post_image %}
-<meta content="{{ site.url }}{{ page.post_image }}" property="og:image">
-<meta name="twitter:card"content="{{ page.post_image }}">
+<meta property="og:image" content="{{ site.url }}{{ page.post_image }}">
+<meta name="twitter:card" content="{{ page.post_image }}">
 {% else %}
-<meta content="{{ site.url }}{{ site.default_image }}" property="og:image">
+<meta property="og:image" content="{{ site.url }}{{ site.default_image }}">
 <meta name="twitter:card" content="{{ site.post_image }}">
 {% endif %}
 
 {% if page.categories %}
     {% for category in page.categories limit:1 %}
-    <meta content="{{ category }}" property="article:section">
+    <meta property="article:section" content="{{ category }}">
     {% endfor %}
 {% endif %}
 
 {% if page.tag %}
   {% for tag in page.tag %}
-  <meta content="{{ tag }}" property="article:tag">
+  <meta property="article:tag" content="{{ tag }}">
   {% endfor %}
 {% endif %}
