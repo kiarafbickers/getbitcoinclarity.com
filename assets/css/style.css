@@ -547,7 +547,8 @@ p-blog {
 	background: #4988e7;
 	bottom: -25px;
 }
-.about-content p {
+.home-content p {
+	font-size: 115%;
 	margin-bottom: 0;
 }
 
