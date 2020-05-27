@@ -1,20 +1,38 @@
 <section class="service-area grey-bg" style="padding-bottom:70px; padding-top:40px;">
     <div class="container">
         <div class="row">
-            <div class="col-xl-12 text-center" style="margin-bottom:40px;">
+            <div class="col-xl-12 text-center" style="margin-bottom:10px;">
                 <div class="section-title service-title">
                     <h2>It's too easy to see cryptocurrency a tangled knot of chaos</h2>
-                </div>
-                <div class="home-content">
-                  <p>News outlets and social media news feeds are all noise. We need a system from separating the signal from the noise. Like Bruce Lee, we want to absorb what is useful and discard the rest. Instead of chasing every new shiny object I focus on the fundamentals. The facts about this system that don't change with what's trending.</p>
                 </div>
             </div>
         </div>
         <div class="row">
+          {% for post in site.posts %}
+          <div class="col-xl-4 col-lg-4 col-md-6" style="margin-bottom:60px;">
+              <a href="{{post.url}}">
+                <div class="blog-wrapper home-blog-wrapper">
+                    <div class="blog-thumb">
+                        <img src="{{post.post_image}}" alt="{{post.title}}"/>
+                    </div>
+                    <div class="meta-info">
+                        <ul>
+                            <li class="posts-time">{{post.date | date_to_long_string}}</li>
+                        </ul>
+                    </div>
+                    <div class="blog-content home-blog">
+                        <h2 class="blog-title">
+                            <a href="{{post.url}}">{{post.title}}</a>
+                        </h2>
+                        <p>{{excerpt | truncatewords:"25"}}</p>
+                    </div>
+                </div>
+              </a>
+          </div>
+            {% endfor %}
+        </div>
+        <div class="row">
             <div class="col-lg-3 col-md-6 text-center" style="margin-bottom:30px;">
-              <!-- <div class="features-icon">
-                <img src="" alt="">
-              </div> -->
               <h4 style="text-align:left;">Bitcoin focus</h4>
               <p style="text-align:left;">We start here to get a firm understanding of the first blockchain. <a href="/blog/2020/05/21/what-is-bitcoin">What is Bitcoin</a>, and why do we need it</p>
             </div>
