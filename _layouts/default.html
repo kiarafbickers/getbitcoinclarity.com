@@ -14,13 +14,18 @@
     {% include google-tag-head.html %}
 
     <!-- Site Title -->
-	<title>
-    {% if page.title %}
-      {{ page.title }}
-	  {% else %}
-		  {{ site.title }}
-	  {% endif %}
-	</title>
+    <title>
+       {% if page.title %}
+       {% assign title_size = page.title.size %}
+         {% if title_size > 52 %}
+            {{ page.title }} | BC
+         {% else %}
+            {{ page.title }} | {{ site.brand-name }}
+         {% endif %}
+       {% else %}
+            {{ site.title }}
+       {% endif %}
+  	</title>
 
     <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
 

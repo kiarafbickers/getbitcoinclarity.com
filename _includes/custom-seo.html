@@ -2,11 +2,11 @@
 {% if page.title %}
 {% assign title_size = page.title.size %}
   {% if title_size > 52 %}
-  <meta name="title" content="{{ page.title }}">
-  <meta property="og:title" content="{{ page.title }}">
+  <meta name="title" content="{{ page.title }} - BC">
+  <meta property="og:title" content="{{ page.title }} - BC">
   {% else %}
   <meta name="title" content="{{ page.title }} - {{ site.brand-name }}">
-  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }} - {{ site.brand-name }}">
   {% endif %}
 {% else %}
 <meta name="title" content="{{ site.title }}">
