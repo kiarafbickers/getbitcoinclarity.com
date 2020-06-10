@@ -1,5 +1,8 @@
 #Please use the main menu items under the "text"
 
+- text: Watch
+  url: https://www.youtube.com/channel/UCEjLeFAlTxymys0Ov3zbmbg
+
 - text: The Book
   url: /book
 
@@ -10,6 +13,9 @@
     url: /articles
   - text: Blog Videos
     url: /blog
+
+- text: Newsletter
+  url: https://www.youtube.com/channel/UCEjLeFAlTxymys0Ov3zbmbg
 
 - text: Data
   url:
