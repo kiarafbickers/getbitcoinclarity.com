@@ -20,7 +20,7 @@ The **10-year Treasury bond** is issued by the US treasury that pays out a fixed
 
 The function of Treasury bonds for the investor is to get a guaranteed rate of return, but the function of Treasury bonds for the government is to fund said government.
 
-In the U.S. the scheme works like this: The Treasury issues the government's debt, and Federal Reserve (Fed) buys the debt with the debt they've issued. For the Fed, that debt is the dollar. Yes you read that right, the dollar is literally debt.
+In the U.S. the scheme works like this: The Treasury issues the government's debt, and Federal Reserve (Fed) buys the debt with the debt they've issued. For the Fed, that debt is the dollar. Yes, you read that right, the dollar is literally debt.
 
 This back and forth trading of debt allows both entities to create the purchasing power to finance themselves and expand.
 
@@ -30,11 +30,11 @@ The U.S. 10-year Treasury bond rate (US10Y) is not the same as the interest rate
 
 The **federal funds rate** (FFR) refers to the interest rate that banks charge other banks for lending to them cash overnight. The federal funds rate is set via committed by the Fed.
 
-The 10-year T-bond yield isn't directly set by the Fed, but is by auction where the Fed is one of most active buyers. The idea was that T-bonds should be priced by the market, but because the Fed is one of the biggest buyers of T-bonds they have a massive ability to distort this signal.
+The 10-year T-bond yield isn't directly set by the Fed but is by auction where the Fed is one of the most active buyers. The idea was that T-bonds should be priced by the market, but because the Fed is one of the biggest buyers of T-bonds they have a massive ability to distort this signal.
 
 **In general, when interest rates fall bond prices rise, and when interest rates rise bond prices fall.**
 
-When the Fed wants to stimulate the economy, they lower the federal funds rate to incentivize borrowing. The problem is that the federal funds rate rate was virtually zero from 2008 through 2016 and very little to stimulate the economy.
+When the Fed wants to stimulate the economy, they lower the federal funds rate to incentivize borrowing. The problem is that the federal funds rate was virtually zero from 2008 through 2016 and very little to stimulate the economy.
 
 But it did increase liquidly for the dollar, making it easier for foreign investors to invest in the U.S. stock market and pump it to the moon. Lower interest rates are not great for the economy but are great for inflating asset prices in the stock markets.
 
@@ -50,11 +50,11 @@ Which is more likely to return more than 2% over the next 10 years: a Treasury b
 
 **The entire system exists to pump the stock market higher.**
 
-Bonds pay too little, but stocks are too risky. So the Fed must eliminate the risk of being in the stock market. The Fed is the un-official and un-elected backer of every major U.S. corporation. None of them will be allowed to fail, since the Fed is here to bail them all out.
+Bonds pay too little, but stocks are too risky. So the Fed must eliminate the risk of being in the stock market. The Fed is the un-official and un-elected backer of every major U.S. corporation. None of them will be allowed to fail since the Fed is here to bail them all out.
 
-Retirement accounts, hedge funds, billionaire all need a vehicle to save the purchasing power of their wealth. And the only suitable place is in the stock market of the worlds reserve currency.
+Retirement accounts, hedge funds, billionaires all need a vehicle to save the purchasing power of their wealth. And the only suitable place is in the stock market of the world's reserve currency.
 
 ## The reality is that all of the world's money has to be parked somewhere.
 
 * If the 10-year yield starts to drop, money is moving out of the risk-on environment of the stock market to the risk-off environment of bonds or cash.
-* If the 10-year yield stabilizes or goes up, money moves from the risk-off environment of bonds and cash back into the risk-on environment of the stock market.
+* If the 10-year yield stabilizes or goes up, money moves from the risk-off environment of bonds and cashback into the risk-on environment of the stock market.
