@@ -1,0 +1,13 @@
+current directory: /Users/kiararobles/Repos/notes/getbitcoinclarity.com/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+/Users/kiararobles/.rvm/rubies/ruby-2.7.2/bin/ruby -I /Users/kiararobles/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20210206-93900-12pu8jh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kiararobles/Repos/notes/getbitcoinclarity.com/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/kiararobles/Repos/notes/getbitcoinclarity.com/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/kiararobles/Repos/notes/getbitcoinclarity.com/vendor/bundle/ruby/2.7.0/gems/json-2.5.1/ext/json
+make "DESTDIR=" install

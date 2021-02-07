@@ -28,10 +28,12 @@ plugins:
 jekyll-minifier:
   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
 
-exclude:
-  - package.json
-  - node_modules
-  - gulpfile.js
+# exclude:
+#   - package.json
+#   - node_modules
+#   - gulpfile.js
+
+exclude: [vendor]
 
 cover_image: "/assets/img/about/kiara-bickers-office.jpg"
 default_image: "/assets/img/landing/kiara-bickers-safe.jpg"
