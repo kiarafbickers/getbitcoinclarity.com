@@ -241,9 +241,50 @@ p-blog {
   border: 2px solid #4988e7;
 }
 
+/* Padding overrides */
+@media (min-width: 576px) {
+	.py-sm-5 {
+        padding-top: 2.5rem !important;
+    }
+
+    .py-sm-5 {
+        padding-bottom: 2.5rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+	.py-md-5 {
+        padding-top: 2.5rem !important;
+    }
+
+    .py-md-5 {
+        padding-bottom: 2.5rem !important;
+    }
+}
+
+@media (min-width: 992px) {
+	.py-lg-5 {
+		padding-top: 2.5rem !important;
+	}
+  
+	.py-lg-5 {
+		padding-bottom: 2.5rem !important;
+	}
+}
+
+@media (min-width: 1200px) {
+	.py-xl-5 {
+		padding-top: 2.5rem !important;
+	}
+  
+	.py-xl-5 {
+		padding-bottom: 2.5rem !important;
+	}
+}
+
 /* menu-area */
 .menu-area {
-	background: #000;
+	background: #F8F9FA;
 	margin-right: -15px;
     margin-bottom: -2px;
 }
@@ -271,21 +312,21 @@ p-blog {
 	margin-left: 30px;
 }
 .main-menu ul li a {
-	color: #fff;
+	color: #000;
 	font-size: 1em;
 	line-height: 2;
 	font-weight: 400;
     text-transform: uppercase;
 }
 .main-menu.second-menu ul li a {
-	color: #ffffff;
+	color: #000;
 	padding: 22px 0;
 }
 .main-menu.second-menu ul li:hover a {
-	color: #ffffff;
+	color: #000;
 }
 .transparent-menu ul li a {
-	color: #fff;
+	color: #000;
 }
 .transparent-menu ul li:hover a i {
 	color: #4988e7;
@@ -300,7 +341,7 @@ p-blog {
 	opacity: 0;
 	visibility: hidden;
 	transition: .3s;
-	border-top: 3px solid #4988e7;
+	border-top: 3px solid #F8CD5F;
 	text-align: left;
 }
 .main-menu.second-menu ul li .sub-menu {
@@ -330,7 +371,7 @@ p-blog {
 	color: #020d26;
 }
 .main-menu.second-menu ul li .sub-menu li:hover a {
-	color: #4988e7;
+	color: #F8CD5F;
 }
 .transparent-menu ul li .sub-menu li a {
 	color: #020d26;
@@ -338,7 +379,7 @@ p-blog {
 .main-menu ul li .sub-menu li a::before {
 	position: absolute;
 	left: 6px;
-	color: #4988e7;
+	color: #F8CD5F;
 	content: "-";
 	transition: .3s;
 	opacity: 0;
@@ -351,13 +392,13 @@ p-blog {
 	left: 10px;
 }
 .main-menu ul li:hover> a{
-	color: #4988e7
+	color: #F8CD5F
 }
 .main-menu ul li:hover a::before,.main-menu ul li:hover a::after{
 	opacity: 1;
 }
 .menu-active {
-	color: #4988e7 !important;
+	color: #F8CD5F !important;
 }
 .second-menu-active {
 	color: #fff !important;
@@ -1083,6 +1124,7 @@ a.meanmenu-reveal {
 	padding: 0;
 	z-index: 99;
 	margin-top: 10px;
+	padding-top: 2rem !important;
 }
 
 .mean-container a.meanmenu-reveal {
@@ -1092,7 +1134,7 @@ a.meanmenu-reveal {
 	top: 0;
 	right: 0;
 	cursor: pointer;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	font-size: 16px;
 	line-height: 22px;
@@ -1100,21 +1142,21 @@ a.meanmenu-reveal {
 	display: block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
-	margin-top: -60px;
+	margin-top: 15px;
 	margin-right: 10px;
 }
 
 .mean-container a.meanmenu-reveal span {
 	display: block;
-	background: #fff;
+	background: #000;
 	height: 3px;
 	margin-top: 3px;
 }
 .mean-container .mean-nav {
 	float: left;
 	width: 100%;
-	background: #0c1923;
-	margin-top: 10px;
+	background: #d5dbdd;
+	margin-top: 30px;
 }
 
 .mean-container .mean-nav ul {
@@ -1136,7 +1178,7 @@ a.meanmenu-reveal {
 	padding: 10px 5%;
 	margin: 0;
 	text-align: left;
-	color: #fff;
+	color: #000;
 	border-top: 1px solid rgba(255,255,255,0.5);
 	text-decoration: none;
 	text-transform: uppercase;
