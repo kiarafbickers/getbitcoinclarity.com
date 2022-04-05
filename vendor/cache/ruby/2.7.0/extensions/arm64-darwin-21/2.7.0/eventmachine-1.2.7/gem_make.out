@@ -1,0 +1,16 @@
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/kiarabickers/.rbenv/versions/2.7.2/bin/ruby -I /Users/kiarabickers/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20220405-3756-14mg4if.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20220405-3756-1dh8oac

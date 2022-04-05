@@ -27,7 +27,6 @@ group :jekyll_plugins do
   gem 'jekyll-analytics'
   gem 'jekyll-gzip'
   gem 'jekyll-minifier'
-  gem 'webrick'
 end
 
 # Performance-booster for watching directories on Windows

@@ -1,0 +1,28 @@
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/ext/libv8
+/Users/kiarabickers/.rbenv/versions/2.7.2/bin/ruby -I /Users/kiarabickers/.rbenv/versions/2.7.2/lib/ruby/2.7.0 -r ./siteconf20220405-14769-144tqt6.rb extconf.rb
+creating Makefile
+Compiling v8 for arm
+Using python 2.7.16
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+Unable to find a compiler officially supported by v8.
+It is recommended to use GCC v4.4 or higher
+Using compiler: g++
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/4.2.1
+Unable to find a compiler officially supported by v8.
+It is recommended to use GCC v4.4 or higher
+clang: error: include path for libstdc++ headers not found; pass '-stdlib=libc++' on the command line to use the libc++ standard library instead [-Werror,-Wstdlibcxx-not-found]
+make[1]: *** [/Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/vendor/v8/out/arm.release/obj.target/preparser_lib/src/allocation.o] Error 1
+make: *** [arm.release] Error 2
+/Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/ext/libv8/location.rb:36:in `block in verify_installation!': libv8 did not install properly, expected binary v8 archive '/Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/vendor/v8/out/arm.release/obj.target/tools/gyp/libv8_base.a'to exist, but it was not found (Libv8::Location::Vendor::ArchiveNotFound)
+	from /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/ext/libv8/location.rb:35:in `each'
+	from /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/ext/libv8/location.rb:35:in `verify_installation!'
+	from /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/ext/libv8/location.rb:26:in `install!'
+	from extconf.rb:7:in `<main>'
+GYP_GENERATORS=make \
+	build/gyp/gyp --generator-output="out" build/all.gyp \
+	              -Ibuild/standalone.gypi --depth=. \
+	              -Dv8_target_arch=arm \
+	              -S.arm  -Dv8_can_use_vfp_instructions=false
+  CXX(target) /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/2.7.0/gems/libv8-3.11.8.17/vendor/v8/out/arm.release/obj.target/preparser_lib/src/allocation.o
+
+extconf failed, exit code 1

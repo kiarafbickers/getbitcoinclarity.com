@@ -1,0 +1,16 @@
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220405-55794-9rsusf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= clean
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\=
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20220405-55794-43qnb7
