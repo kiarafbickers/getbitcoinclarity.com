@@ -104,6 +104,14 @@
 	.contact-form-title p {
 		width: 100%;
 	}
+
+	.ordered-columns-items {
+		-webkit-column-count: unset;
+    	-moz-column-count: unset;
+    	column-count: unset;
+	}
+
+
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
