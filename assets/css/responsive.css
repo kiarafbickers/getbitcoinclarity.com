@@ -56,6 +56,11 @@
 	.call-to-action a {
 		padding: 18px 30px;
 	}
+	.bitcoin-header h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
 }
 
 
@@ -111,6 +116,17 @@
     	column-count: unset;
 	}
 
+	.bitcoin-header h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+
+	.service-title h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
 
 }
 /* SM Small Device :550px. */
