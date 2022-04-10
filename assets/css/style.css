@@ -22,6 +22,7 @@
 15. Pagination
 16. FAQ
 17. Menu
+18. Tweets
 */
 
 /* 1. Theme default css */
@@ -516,7 +517,7 @@ p-blog {
 
 /* 3. Slider */
 .single-slider {
-	background: linear-gradient(to bottom, #F8F9FA 0%, #F8F9FA 40%, #fff 40%, #fff 100%);
+	background: linear-gradient(to bottom, #F8F9FA 0%, #F8F9FA 80%, #fff 80%, #fff 100%);
 }
 
 /* 3a. Testimonial */
@@ -548,7 +549,7 @@ p-blog {
 
 /* 3b. Book Cover*/
 .book-cover {
-	max-height: 500px;
+	max-height: 550px;
 	overflow: hidden;
 }
 .bitcoin-clarity-book img {
@@ -584,7 +585,7 @@ p-blog {
 }
 
 /* 3d. Step 1 */
-.step1-container {
+.get-bitcoin-clarity-div-container {
 	text-align: center;
     margin-top: 64px;
     margin-bottom: 92px;
@@ -594,7 +595,7 @@ p-blog {
     padding: 40px 144px;
 	background-color: #F8F9FA;
 }
-.step1-container .btn-white-hover {
+.get-bitcoin-clarity-div-container .btn-white-hover {
 	margin: 10px;
     margin-right: 0;
 }
@@ -1485,4 +1486,65 @@ a.meanmenu-reveal {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* Tweets Page */
+.tweets-masonry {
+	-webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.tweets-masonry-item {
+	width: calc(100% - 80px);
+    margin: 15px;
+    padding: 40px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    break-inside: avoid-column;
+	background-color: #F9F8F4;
+}
+
+.tweets-masonry-footer {
+	display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.tweets-masonry-image {
+	margin-right: 24px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 74px;
+    -ms-flex: 0 1 74px;
+    flex: 0 1 74px;
+    min-width: 74px;
+}
+
+.tweets-masonry-image img {
+	width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    display: block;
+}
+
+.tweets-masonry-author {
+	font-family: europa;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 150%;
+    max-width: 250px;
+}
+
+.tweets-masonry-author span {
+	display: block;
+	font-family: europa;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 150%;
 }
