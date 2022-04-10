@@ -677,6 +677,20 @@ p-blog {
 	margin-bottom: 0;
 }
 
+.about-area .container {
+	max-width: 730px;
+	margin: 0 auto;
+}
+
+.about-desc p {
+	font-size: 18px;
+	line-height: 165%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
 /* 5. Service */
 .service-title h2::before {
 	content: "";
