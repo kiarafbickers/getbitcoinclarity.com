@@ -113,6 +113,10 @@ p-blog {
 	white-space:pre-wrap;
 }
 
+a {
+	color: #f8cd5e;
+}
+
 .img-blog-container {
 	max-width:750px;
 }
@@ -669,7 +673,6 @@ p-blog {
 	left: 0;
 	width: 60px;
 	height: 2px;
-	background: #4988e7;
 	bottom: -25px;
 }
 .home-content p {
@@ -702,6 +705,15 @@ p-blog {
 	bottom: -25px;
 	right: 0;
 	margin: auto;
+}
+
+.service-area .container {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	max-width: 730px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .service-area .container .row {
