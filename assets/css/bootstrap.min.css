@@ -291,6 +291,9 @@ img {
     .py-lg-5 {
       padding-bottom: 3rem !important;
     }
+    .offset-lg-3 {
+        margin-left: 25%;
+    }
 }
 
 @media (min-width: 1200px) {
