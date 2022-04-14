@@ -1610,6 +1610,18 @@ a.meanmenu-reveal {
 	background-color: #F9F8F4;
 }
 
+.tweets-masonry-item span {
+	font-weight: 600;
+}
+
+.tweets-masonry-item div p::before {
+	content: '\201C';
+}
+
+.tweets-masonry-item div p::after {
+	content: '\201C';
+}
+
 .tweets-masonry-footer {
 	display: -webkit-box;
     display: -webkit-flex;
