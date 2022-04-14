@@ -825,6 +825,9 @@ a {
 .copyright-text p a{
 	color: #f8cd5e;
 }
+.footer-menus {
+	padding: 20px 0 0;
+}
 .footer-menu li:hover a{
 	color: #f8cd5e;
 }
@@ -854,6 +857,7 @@ a {
     background-position: unset;
     border-bottom: 2px solid transparent;
 	list-style: none;
+	text-align: left;
 }
 .footer-title {
 	margin-bottom: 20px;
@@ -870,11 +874,12 @@ a {
 	padding: 20px 0 0;
 	position: relative;
 }
-.footer-text {
+.footer-text p {
 	font-size: 15px;
     line-height: 150%;
 	max-width: 475px;
 	color: #999;
+	margin-left: inherit;
 }
 .footer-columns {
 	font-family: europa, sans-serif;
