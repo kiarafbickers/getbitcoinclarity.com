@@ -114,7 +114,8 @@ p-blog {
 }
 
 a {
-	color: #f8cd5e;
+	font-weight: 600;
+	color: #000;
 }
 
 .img-blog-container {
