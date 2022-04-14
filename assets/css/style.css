@@ -530,6 +530,11 @@ a {
 	line-height: 165%;
 	font-family: minion-pro, serif;
 }
+.testimonial-text-2 {
+	font-size: 27px; 
+	line-height: 40px;
+	font-family: minion-pro, serif;
+}
 .testimonial-author {
 	font-weight: bold;
 	font-size: 17px;

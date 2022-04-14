@@ -61,6 +61,19 @@
 		line-height: 125%;
 		letter-spacing: -1px;
 	}
+	.testimonial-text  {
+		font-size: 15px;
+	}
+	.testimonial-text-2 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.testimonial-author {
+		font-size: 12px;
+	}
+	.testimonial-author-title {
+		font-size: 11px;
+	}
 }
 
 @media screen and (max-width: 63.9988em) {
