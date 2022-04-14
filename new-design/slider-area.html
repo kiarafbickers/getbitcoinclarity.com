@@ -4,24 +4,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-12 order-md-1 order-2 top-buffer">
-                        <div class="testimonial text-center">
-                            <div class="testimonial-stars">
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
+                        {% if include.showQuotes %}
+                            <div class="testimonial text-center">
+                                <div class="testimonial-stars">
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                </div>
+                                <div class="testimonial-text">
+                                    "A supremely practical and useful book. James Clear distills the most fundamental information about habit formation, so you can accomplish more by focusing on less."
+                                </div>
+                                <div class="testimonial-author">
+                                    Mark Manson
+                                </div>
+                                <div class="testimonial-author-title">
+                                    #1 New York Times best-selling author
+                                </div>
                             </div>
-                            <div class="testimonial-text">
-                                "A supremely practical and useful book. James Clear distills the most fundamental information about habit formation, so you can accomplish more by focusing on less."
-                            </div>
-                            <div class="testimonial-author">
-                                Mark Manson
-                            </div>
-                            <div class="testimonial-author-title">
-                                #1 New York Times best-selling author
-                            </div>
-                        </div>
+                        {% endif %}
                     </div>
                     <div class="col-md-4 col-12 order-md-2 order-1 book-cover top-buffer">
                         <div class="bitcoin-clarity-book">
@@ -29,24 +31,26 @@
                         </div>
                     </div>
                     <div class="col-md-4 col-12 order-md-3 order-3 top-buffer">
-                        <div class="testimonial text-center">
-                            <div class="testimonial-stars">
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
-                                <i class="icofont-star checked"></i>
+                        {% if include.showQuotes %}
+                            <div class="testimonial text-center">
+                                <div class="testimonial-stars">
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                </div>
+                                <div class="testimonial-text" style="font-size: 33px; line-height: 46px">
+                                    "One of my all-time favorite books."
+                                </div>
+                                <div class="testimonial-author">
+                                    Arianna Huffington
+                                </div>
+                                <div class="testimonial-author-title">
+                                    Founder, Huffington Post & Thrive Global
+                                </div>
                             </div>
-                            <div class="testimonial-text" style="font-size: 33px; line-height: 46px">
-                                "One of my all-time favorite books."
-                            </div>
-                            <div class="testimonial-author">
-                                Arianna Huffington
-                            </div>
-                            <div class="testimonial-author-title">
-                                Founder, Huffington Post & Thrive Global
-                            </div>
-                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>
