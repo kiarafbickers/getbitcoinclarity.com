@@ -5,3 +5,4 @@ debug.log
 public/
 .deploy/
 node_modules/*
+vendor/cache/ruby/2.7.0

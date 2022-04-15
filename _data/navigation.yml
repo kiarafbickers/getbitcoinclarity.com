@@ -3,8 +3,8 @@
 - text: Watch
   url: https://www.youtube.com/channel/UCEjLeFAlTxymys0Ov3zbmbg
 
-- text: The Book
-  url: /book
+# - text: The Book
+#  url: /book
 
 - text: Resources
   url:
@@ -27,11 +27,14 @@
   - text: Bitcoin Price
     url: /markets/bitcoin
 
-- text: About
-  url: /about
+- text: Home
+  url: /
 
-- text: Sign In
-  url: /the-accelerator
+#- text: About
+#  url: /about
+
+#- text: Sign In
+#  url: /the-accelerator
 
 #/course/bitcoin-clarity-accelerator
 # - text: My Story

@@ -1,0 +1,59 @@
+<section class="slider-area">
+    <div class="slider-active">
+        <div class="single-slider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-3 col-12 order-md-1 order-2 top-buffer">
+                        {% if include.showQuotes %}
+                            <div class="testimonial text-center">
+                                <div class="testimonial-stars">
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                </div>
+                                <div class="testimonial-text-2">
+                                    "My new go-to recommendation."
+                                </div>
+                                <div class="testimonial-author">
+                                    Kaz
+                                </div>
+                                <div class="testimonial-author-title">
+                                    Down The Rabbit Hole Podcast
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 order-md-2 order-1 book-cover top-buffer">
+                        <div class="bitcoin-clarity-book">
+                            <img src="{{site.baseurl}}{{site.book_image}}" style="margin-left: 5.5px;" alt="Bitcoin Clarity Book Image" data-echo="{{site.baseurl}}{{site.book_image}}">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-12 order-md-3 order-3 top-buffer">
+                        {% if include.showQuotes %}
+                            <div class="testimonial text-center">
+                                <div class="testimonial-stars">
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                    <i class="icofont-star checked"></i>
+                                </div>
+                                <div class="testimonial-text-2">
+                                    "A Damn Masterpiece"
+                                </div>
+                                <div class="testimonial-author">
+                                    Leigh Cuen
+                                </div>
+                                <div class="testimonial-author-title">
+                                    Bitcoin Magazine
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

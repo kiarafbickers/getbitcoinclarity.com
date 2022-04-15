@@ -1,5 +1,9 @@
 current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
+<<<<<<< HEAD
 /opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220405-55794-ai198l.rb extconf.rb
+=======
+/opt/homebrew/opt/ruby/bin/ruby -I /opt/homebrew/lib/ruby/site_ruby/3.0.0 -r ./siteconf20220407-52012-vg7s8q.rb extconf.rb
+>>>>>>> new-design
 creating Makefile
 
 current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
@@ -91,4 +95,8 @@ linking shared-object commonmarker/commonmarker.bundle
 
 current directory: /Users/kiarabickers/Repos/getbitcoinclarity.com/vendor/cache/ruby/3.0.0/gems/commonmarker-0.17.13/ext/commonmarker
 make DESTDIR\= install
+<<<<<<< HEAD
 /usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20220405-55794-ml0f8h/commonmarker
+=======
+/usr/bin/install -c -m 0755 commonmarker.bundle ./.gem.20220407-52012-8w5ctq/commonmarker
+>>>>>>> new-design

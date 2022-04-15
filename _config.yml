@@ -8,6 +8,8 @@ brand-name: "Bitcoin Clarity"
 baseurl: ""
 url: "https://getbitcoinclarity.com"
 facebook_url: "https://www.facebook.com/kiarabickersfan/"
+twitter_url: https://twitter.com/kiarabickers
+instagram_url: https://www.instagram.com/kiarabickers/
 
 permalink: "/blog/:year/:month/:day/:title"
 
@@ -37,6 +39,11 @@ exclude: [vendor]
 
 cover_image: "/assets/img/about/kiara-bickers-office.jpg"
 default_image: "/assets/img/landing/kiara-bickers-safe.jpg"
+cover_images:
+  - /assets/img/landing/bitcoin-clarity-book-1.png
+  - /assets/img/landing/bitcoin-clarity-book-2.png
+  - /assets/img/landing/bitcoin-clarity-book-3.png
+book_image: /assets/img/landing/bitcoin-clarity-book.png
 
 #collections
 collections:
