@@ -56,12 +56,69 @@
 	.call-to-action a {
 		padding: 18px 30px;
 	}
+	.bitcoin-header h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+	.testimonial-text  {
+		font-size: 15px;
+	}
+	.testimonial-text-2 {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.testimonial-author {
+		font-size: 12px;
+	}
+	.testimonial-author-title {
+		font-size: 11px;
+	}
 }
 
+@media screen and (max-width: 63.9988em) {
+	.tweets-masonry {
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+		position: relative;
+		width: auto;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+
+	.tweets-masonry-item {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1 0 50%;
+		-ms-flex: 1 0 50%;
+		flex: 1 0 50%;
+		padding: 20px;
+		margin-right: 27px;
+		margin-left: 27px;
+		margin-bottom: 20px;
+	}
+
+}
 
 /* Extra small Device. */
 @media (max-width: 767px) {
 
+	.single-slider {
+		background: linear-gradient(to bottom, #F8F9FA 0%, #F8F9FA 40%, #fff 40%, #fff 100%);
+	}
+	.get-bitcoin-clarity-div-container {
+		padding: 7px 0 40px;
+		max-width: 100%;
+	}
 	.slider-content {
         max-width: 350px;
     	margin-top: 200px;
@@ -96,6 +153,54 @@
 	.contact-form-title p {
 		width: 100%;
 	}
+
+	.ordered-columns-items {
+		-webkit-column-count: unset;
+    	-moz-column-count: unset;
+    	column-count: unset;
+	}
+
+	.bitcoin-header h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+
+	.service-title h1 {
+		font-size: 32px;
+		line-height: 125%;
+		letter-spacing: -1px;
+	}
+
+	.footer-title {
+		text-align: center;
+	}
+
+	.footer-text {
+		position: absolute;
+		display: flex;
+		margin-top: 125px;
+		left: 0;
+		right: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 250px;
+	}
+
+	.footer-text p {
+		text-align: center;
+		font-size: 12px;
+	}
+
+	.footer-menu li {
+		text-align: center;
+	}
+
+	.copyright-area {
+		padding-top: 50px;
+		padding-bottom: 75px;
+	}
+
 }
 /* SM Small Device :550px. */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
