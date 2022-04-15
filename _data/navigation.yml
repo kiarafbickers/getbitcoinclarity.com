@@ -27,11 +27,14 @@
   - text: Bitcoin Price
     url: /markets/bitcoin
 
-- text: About
-  url: /about
+- text: Home
+  url: /
 
-- text: Sign In
-  url: /the-accelerator
+#- text: About
+#  url: /about
+
+#- text: Sign In
+#  url: /the-accelerator
 
 #/course/bitcoin-clarity-accelerator
 # - text: My Story
