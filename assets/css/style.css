@@ -1621,6 +1621,15 @@ a.meanmenu-reveal {
 	content: '\201C';
 }
 
+.tweets-masonry-item div p {
+	font-size: 18px;
+	line-height: 165%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
 .tweets-masonry-footer {
 	display: -webkit-box;
     display: -webkit-flex;
