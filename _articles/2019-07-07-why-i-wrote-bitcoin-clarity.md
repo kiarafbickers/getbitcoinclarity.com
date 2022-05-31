@@ -35,7 +35,7 @@ Once you hear every perspective you have to take a leap of faith and decide whos
 
 Your economics professor, a crypto Twitter guru, or your financial advisor, who they determine which version of pro or con Bitcoin propaganda they sell you.
 
-Even great books like Mastering Bitcoin by Antonopoulos and Programming Bitcoin by Jimmy Song are not intended for the average user, they were written for potential industry developers. Advanced users who want to run their own full node, people who want to become a Bitcoin wallet developer or contribute to Bitcoin Core. Technical books like these explain how it works, but not in the most accessible way that makes it easy for new users to truly understand it.
+Even great books like <a href="url">Mastering Bitcoin</a> by Antonopoulos and Programming Bitcoin by Jimmy Song are not intended for the average user, they were written for potential industry developers. Advanced users who want to run their own full node, people who want to become a Bitcoin wallet developer or contribute to Bitcoin Core. Technical books like these explain how it works, but not in the most accessible way that makes it easy for new users to truly understand it.
 
 Cryptoassets by Chris Burniske or An Altcoin Trader's Handbook by Nik Patel gives readers the perspective of Bitcoin from markets, trading, and finance. The Bitcoin Standard is a fantastic book by Saifedean will give you the pro bitcoin narrative from the perspective of Austrian economics. While a book like Attack of the 50 Foot Blockchain by David Gerard will present the con narrative by building up different strawman arguments against bitcoin then tearing them down.
 

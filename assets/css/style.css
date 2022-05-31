@@ -23,11 +23,12 @@
 16. FAQ
 17. Menu
 18. Tweets
+19. Local Fonts
 */
 
 /* 1. Theme default css */
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 	font-style: normal;
 	font-size: 1em;
 	text-rendering: optimizeLegibility;
@@ -53,7 +54,7 @@ button{
 	cursor:pointer;
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: "Europa"; 
 	color: #202124;
 	margin-top: 0px;
 	font-style: normal;
@@ -99,7 +100,7 @@ p {
     margin-inline-end: 0px;
 }
 p-blog {
-	font-family: 'Poppins', sans-serif;
+	font-family: "Europa"; 
 	color: #202124;
 	margin-top: 45px;
 	font-size: 24px;
@@ -272,7 +273,7 @@ a {
 	.py-lg-5 {
 		padding-top: 2.5rem !important;
 	}
-  
+
 	.py-lg-5 {
 		padding-bottom: 2.5rem !important;
 	}
@@ -282,7 +283,7 @@ a {
 	.py-xl-5 {
 		padding-top: 2.5rem !important;
 	}
-  
+
 	.py-xl-5 {
 		padding-bottom: 2.5rem !important;
 	}
@@ -526,20 +527,23 @@ a {
 	font-size: 1.5em;
 }
 .testimonial-text {
+	font-family: "Europa";
+	font-weight: bold;
 	font-size: 20px;
 	line-height: 165%;
-	font-family: minion-pro, serif;
 }
 .testimonial-text-2 {
-	font-size: 27px; 
+	font-family: "Europa";
+	font-weight: bold;
+	font-size: 27px;
 	line-height: 40px;
-	font-family: minion-pro, serif;
 }
 .testimonial-author {
-	font-weight: bold;
+	font-family: "Europa"; 
 	font-size: 17px;
 	line-height: 150%;
 	margin-top: 15px;
+
 }
 .testimonial-author-title {
 	font-weight: normal;
@@ -558,9 +562,9 @@ a {
 	display: block;
 	max-width: 100%;
 	max-height: 100%;
-	margin: auto;  
+	margin: auto;
 }
-.top-buffer { 
+.top-buffer {
 	margin-top: 50px;
 }
 
@@ -812,7 +816,7 @@ a {
     right: 0px;
     bottom: 0px;
     height: 180px;
-  	clear: both; 
+  	clear: both;
 
 }
 .page-container {
@@ -1142,10 +1146,10 @@ td img{
 
 .blog-area h3, h4, h5, h6 {
 	margin-top: 10px;
-	font-family: 'Google Sans', Roboto, sans-serif;
+	font-family: "Europa";
 }
 .blog-area p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
 	font-size: 100%;
 	color: #000000;
     display: block;
@@ -1673,3 +1677,123 @@ a.meanmenu-reveal {
 	font-size: 13px;
 	line-height: 150%;
 }
+
+/* Local Fonts */
+
+@font-face {
+    font-family: "Europa";
+    src: url("/assets/fonts/europa.eot"); /* IE9 + later */
+    src: url("/assets/fonts/europa.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+         url("/assets/fonts/europa.woff2") format('woff2'),
+         url("/assets/fonts/europa.woff") format('woff'), /* Newer browsers */
+         url("/assets/fonts/europa.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans.woff2") format('woff2'),
+       url("/assets/fonts/open-sans.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans2.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans2.?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans2.woff2") format('woff2'),
+       url("/assets/fonts/open-sans2.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans2.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans3.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans3.?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans3.woff2") format('woff2'),
+       url("/assets/fonts/open-sans3.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans3.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans4.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans4.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans4.woff2") format('woff2'),
+       url("/assets/fonts/open-sans4.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans4.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0370-03FF;
+}
+/* hebrew */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans5.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans5.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans5.woff2") format('woff2'),
+       url("/assets/fonts/open-sans5.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans5.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans6.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans6.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans6.woff2") format('woff2'),
+       url("/assets/fonts/open-sans6.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans6.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans7.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans7.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+       url("/assets/fonts/open-sans7.woff2") format('woff2'),
+       url("/assets/fonts/open-sans7.woff") format('woff'), /* Newer browsers */
+       url("/assets/fonts/open-sans7.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'IBM Plex Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: 100%;
+  src: url("/assets/fonts/open-sans8.eot"); /* IE9 + later */
+  src: url("/assets/fonts/open-sans8.eot?#iefix") format('embedded-opentype'), /* IE6 to IE8  */
+	   url("/assets/fonts/open-sans8.woff2") format('woff2'),
+	   url("/assets/fonts/open-sans8.woff") format('woff'), /* Newer browsers */
+	   url("/assets/fonts/open-sans8.ttf") format('truetype'); /* Safari og iOS, Chrome, Android, Firefox and Opera except Opera Mini  */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+$font-stack: BlinkMacSystemFont, -apple-system, "Europa", 'IBM Plex Sans', sans-serif;
