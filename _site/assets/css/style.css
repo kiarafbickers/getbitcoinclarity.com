@@ -521,8 +521,6 @@ a {
 /* 3a. Testimonial */
 .testimonial-stars {
 	margin-bottom: 26px;
-}
-.icofont-star.checked{
 	color: #f8cd5f;
 	font-size: 1.5em;
 }
