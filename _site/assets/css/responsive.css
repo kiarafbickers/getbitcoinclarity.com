@@ -20,7 +20,7 @@
 /* MD Device :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
 
-.slider-content {
+	.slider-content {
     max-width: 400px;
     margin-top: 250px;
     }
@@ -62,10 +62,10 @@
 		letter-spacing: -1px;
 	}
 	.testimonial-text  {
-		font-size: 1em;
+		font-size: 15px;
 	}
 	.testimonial-text-2 {
-		font-size: 1em;
+		font-size: 15px;
 		line-height: 20px;
 	}
 	.testimonial-author {

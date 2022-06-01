@@ -24,8 +24,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-analytics
-  - jekyll-gzip
-  - jekyll-minifier
 
 jekyll-minifier:
   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
