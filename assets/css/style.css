@@ -28,6 +28,7 @@
 22. Responsive
 23. IcoFont
 24. Navbar Bootstrap
+25. Forms
 */
 
 :root {
@@ -732,6 +733,9 @@ a {
 	width: 60px;
 	height: 2px;
 	bottom: -25px;
+}
+.about-area {
+	padding: 0 0 50px 0;
 }
 .about-area .container {
 	max-width: 730px;
@@ -9150,4 +9154,218 @@ button.close {
     .hidden-print {
         display: none !important;
     }
+}
+
+/* Forms */
+.two-columns-form {
+
+  max-width: 100%;
+  padding: 5rem 1rem;
+
+  .two-columns-container {
+
+    h2 {
+      line-height: 125%;
+    }
+
+    .columns {
+
+      padding-top: 3rem;
+
+      h2 {
+        font-size: 36px;
+        line-height: 125%;
+      }
+
+      &:first-child {
+        padding-right: 7.857vw;
+      }
+
+      &:last-child {
+        padding-left: 7.857vw;
+        margin-left: 0;
+      }
+
+      .unordered-list-container {
+        font-size: 18px;
+        line-height: 150%;
+        margin-top: 40px;
+
+        .unordered-list-items {
+
+          li {
+            margin: 0 0 24px 0;
+            position: relative;
+            counter-increment: customer-counter;
+            font-size: 20px;
+            line-height: 150%;
+            font-weight: 200;
+
+            &::before {
+              content: counter(customer-counter);
+              font-size: 13px;
+              position: absolute;
+              --size: 24px;
+              left: calc(-1 * var(--size) - 10px);
+              line-height: var(--size);
+              width: var(--size);
+              height: var(--size);
+              top: 3px;
+              color: #000;
+              background: #F8CD5F;
+              border-radius: 50%;
+              text-align: center;
+              font-weight: bold;
+            }
+
+          }
+
+        }
+
+      }
+
+      .form-box {
+        background-color: var(--bg);
+        text-align: center;
+        padding: 60px;
+        height: fit-content;
+        position: relative;
+        max-width: 425px;
+
+        .form-title {
+          margin-bottom: 24px;
+          margin-top: 0;
+        }
+
+        .form-group {
+          input {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+          }
+
+          .btn-white-hover {
+            @include btn-white-hover;
+            width: 100%;
+            margin-top: 0.5rem;
+            margin-bottom: 2rem;
+            padding: 1rem 0%;
+          }
+        }
+
+        .form-text {
+          font-style: italic;
+          font-weight: normal;
+          font-size: 17px;
+          line-height: 150%;
+          max-width: 295px;
+          margin: 0 auto;
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+.two-columns-form {
+  max-width: 100%;
+  padding: 5rem 1rem;
+  background-color: var(--bg-secondary);
+}
+.two-columns-form .two-columns-container h2, .two-columns-form .two-columns-container .h2 {
+  line-height: 125%;
+}
+.two-columns-form .two-columns-container .columns {
+  padding-top: 3rem;
+}
+.two-columns-form .two-columns-container .columns h2, .two-columns-form .two-columns-container .columns .h2 {
+  font-size: 36px;
+  line-height: 125%;
+}
+.two-columns-form .two-columns-container .columns .unordered-list-container {
+  font-size: 18px;
+  line-height: 150%;
+  margin-top: 40px;
+}
+.two-columns-form .two-columns-container .columns .unordered-list-container .unordered-list-items li {
+  margin: 0 0 24px 0;
+  position: relative;
+  counter-increment: customer-counter;
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: 200;
+}
+.two-columns-form .two-columns-container .columns .unordered-list-container .unordered-list-items li::before {
+  content: counter(customer-counter);
+  font-size: 13px;
+  position: absolute;
+  --size: 24px;
+  left: calc(-1 * var(--size) - 10px);
+  line-height: var(--size);
+  width: var(--size);
+  height: var(--size);
+  top: 3px;
+  color: #000;
+  background: #F8CD5F;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+.two-columns-form .two-columns-container .columns .form-box {
+  background-color: var(--bg);
+  text-align: center;
+  padding: 60px;
+  height: fit-content;
+  position: relative;
+  max-width: 425px;
+}
+.two-columns-form .two-columns-container .columns .form-box .form-title {
+  margin-bottom: 24px;
+  margin-top: 0;
+}
+.two-columns-form .two-columns-container .columns .form-box .form-group input {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.two-columns-form .two-columns-container .columns .form-box .form-group .btn-white-hover {
+  background: var(--button-background);
+  border: medium none;
+  border-radius: 0;
+  color: #000;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  color: #000;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid var(--button-background);
+  white-space: normal;
+  word-wrap: break-word;
+  width: 100%;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 1rem 0%;
+}
+.two-columns-form .two-columns-container .columns .form-box .form-group .btn-white-hover:hover, .two-columns-form .two-columns-container .columns .form-box .form-group .btn-white-hover :active {
+  background-color: var(--button-background-hover);
+  color: #000;
+  border: 2px solid var(--button-background-hover);
+}
+.two-columns-form .two-columns-container .columns .form-box .form-text {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 150%;
+  max-width: 295px;
+  margin: 0 auto;
 }
