@@ -381,7 +381,7 @@ a {
 	font-size: 1em;
 	line-height: 2;
 	font-weight: 400;
-	border-bottom: 0px;
+	border-bottom: 0px
 }
 .main-menu.second-menu ul li a {
 	color: #000;
@@ -733,11 +733,6 @@ a {
 	height: 2px;
 	bottom: -25px;
 }
-.home-content p {
-	font-size: 115%;
-	margin-bottom: 0;
-}
-
 .about-area .container {
 	max-width: 730px;
 	margin: 0 auto;
@@ -945,6 +940,15 @@ a {
 	margin-bottom: 20px;
 	padding: 20px 0 0;
 	position: relative;
+}
+.footer-title a {
+	border-bottom: 0px;
+}
+.footer-text a {
+	border-bottom: 0px;
+}
+.footer-menu a {
+	border-bottom: 0px;
 }
 .footer-text p {
 	font-size: 15px;
