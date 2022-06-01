@@ -27,8 +27,8 @@
   - text: Bitcoin Price
     url: /markets/bitcoin
 
-- text: Home
-  url: /
+# - text: Home
+#   url: /
 
 #- text: About
 #  url: /about
