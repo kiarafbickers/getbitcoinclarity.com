@@ -43,7 +43,7 @@
 html {
 	--opposite: #000;
   --bg: #fff;
-  --bg-secondary: #F9F8F4;
+  --bg-secondary: #f7f6f1;
   --headings: #000;
   --text: #333;
   --share-text: #999;
@@ -169,7 +169,7 @@ a {
 
 /* Background Color */
 .grey-bg {
-	background: #F9F8F4;
+	background: #f7f6f1;
 }
 
 /* button style */
@@ -345,7 +345,7 @@ a {
 /* test */
 
 .menu-area {
-	background: #F9F8F4;
+	background: #f7f6f1;
 	margin-right: -15px;
     margin-bottom: -2px;
     font-size: 1rem;
@@ -616,7 +616,7 @@ a {
 
 /* 3. Slider */
 .single-slider {
-	background: linear-gradient(to bottom, #F9F8F4 0%, #F9F8F4 80%, #fff 80%, #fff 100%);
+	background: linear-gradient(to bottom, #f7f6f1 0%, #f7f6f1 80%, #fff 80%, #fff 100%);
 }
 
 /* 3a. Testimonial */
@@ -698,7 +698,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding: 40px 144px;
-	background-color: #F9F8F4;
+	background-color: #f7f6f1;
 }
 .get-bitcoin-clarity-div-container .btn-white-hover {
 	margin: 10px;
@@ -1713,7 +1713,7 @@ a.meanmenu-reveal {
     -webkit-column-break-inside: avoid;
     -moz-column-break-inside: avoid;
     break-inside: avoid-column;
-	background-color: #F9F8F4;
+	background-color: #f7f6f1;
 }
 
 .tweets-masonry-item span {
@@ -2455,7 +2455,7 @@ img {
 @media (max-width: 767px) {
 
 	.single-slider {
-		background: linear-gradient(to bottom, #F9F8F4 0%, #F9F8F4 40%, #fff 40%, #fff 100%);
+		background: linear-gradient(to bottom, #f7f6f1 0%, #f7f6f1 40%, #fff 40%, #fff 100%);
 	}
 	.get-bitcoin-clarity-div-container {
 		padding: 7px 0 40px;
