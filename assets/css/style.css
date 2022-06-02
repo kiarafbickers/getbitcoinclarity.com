@@ -43,7 +43,7 @@
 html {
 	--opposite: #000;
   --bg: #fff;
-  --bg-secondary: #f8f9fa;
+  --bg-secondary: #F9F8F4;
   --headings: #000;
   --text: #333;
   --share-text: #999;
@@ -169,7 +169,7 @@ a {
 
 /* Background Color */
 .grey-bg {
-	background: #F8F9FA;
+	background: #F9F8F4;
 }
 
 /* button style */
@@ -345,7 +345,7 @@ a {
 /* test */
 
 .menu-area {
-	background: #F8F9FA;
+	background: #F9F8F4;
 	margin-right: -15px;
     margin-bottom: -2px;
     font-size: 1rem;
@@ -616,7 +616,7 @@ a {
 
 /* 3. Slider */
 .single-slider {
-	background: linear-gradient(to bottom, #F8F9FA 0%, #F8F9FA 80%, #fff 80%, #fff 100%);
+	background: linear-gradient(to bottom, #F9F8F4 0%, #F9F8F4 80%, #fff 80%, #fff 100%);
 }
 
 /* 3a. Testimonial */
@@ -698,7 +698,7 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding: 40px 144px;
-	background-color: #F8F9FA;
+	background-color: #F9F8F4;
 }
 .get-bitcoin-clarity-div-container .btn-white-hover {
 	margin: 10px;
@@ -2455,7 +2455,7 @@ img {
 @media (max-width: 767px) {
 
 	.single-slider {
-		background: linear-gradient(to bottom, #F8F9FA 0%, #F8F9FA 40%, #fff 40%, #fff 100%);
+		background: linear-gradient(to bottom, #F9F8F4 0%, #F9F8F4 40%, #fff 40%, #fff 100%);
 	}
 	.get-bitcoin-clarity-div-container {
 		padding: 7px 0 40px;
