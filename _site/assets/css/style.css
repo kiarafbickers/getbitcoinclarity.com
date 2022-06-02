@@ -839,7 +839,7 @@ a {
 }
 
 .ordered-columns-items li {
-	margin: 0 0 24px 0;
+	margin: 0 0 24px 30px;
     position: relative;
     margin-right: 50px;
 	counter-increment: customer-counter;
@@ -9236,7 +9236,7 @@ button.close {
         .unordered-list-items {
 
           li {
-            margin: 0 0 24px 0;
+            margin: 0 0 24px 30px;
             position: relative;
             counter-increment: customer-counter;
             font-size: 20px;
@@ -9332,7 +9332,7 @@ button.close {
   margin-top: 40px;
 }
 .two-columns-form .two-columns-container .columns .unordered-list-container .unordered-list-items li {
-  margin: 0 0 24px 0;
+  margin: 0 0 24px 30px;
   position: relative;
   counter-increment: customer-counter;
   font-size: 20px;
