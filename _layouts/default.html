@@ -1,58 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en">
-
 <head>
-    <!-- meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- feed_meta -->
-    {% feed_meta %}
-
-    <!-- google-tag-head.html -->
-    {% include google-tag-head.html %}
-
-    <!-- Site Title -->
-    <title>
-       {% if page.title %}
-       {% assign title_size = page.title.size %}
-         {% if title_size > 52 %}
-            {{ page.title }} | BC
-         {% else %}
-            {{ page.title }} | {{ site.brand-name }}
-         {% endif %}
-       {% else %}
-            {{ site.title }}
-       {% endif %}
-  	</title>
-
-    <link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
-
-    <!-- SEO, Facebook, & Twitter -->
-    {% include custom-seo.html %}
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/icofont.min.css">
+<!-- meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- feed_meta --> {% feed_meta %}
+<!-- google-tag-head.html --> {% include google-tag-head.html %}
+<!-- Site Title -->
+<title> {% if page.title %} {% assign title_size = page.title.size %} {% if title_size > 52 %} {{ page.title }} | BC {% else %} {{ page.title }} | {{ site.brand-name }} {% endif %} {% else %} {{ site.title }} {% endif %} </title>
+<link rel="icon" href="{{site.baseurl}}/assets/img/favicon.png">
+<!-- SEO, Facebook, & Twitter --> {% include custom-seo.html %}
+<!-- CSS -->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/icofont.min.css">
 </head>
-
 <body>
-    {% include google-tag-body.html %}
-
-    <div class="page-container">
-      <div class="content-wrap">
-        {{content}}
-      </div>
-        {% include footer.html %}
-    </div>
-
-    <!-- Optional JavaScript -->
-    <script src="{{site.baseurl}}/assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/jquery.meanmenu.min.js"></script>
-    <script src="{{site.baseurl}}/assets/js/main.js"></script>
+{% include google-tag-body.html %}
+<div class="page-container">
+  <div class="content-wrap">
+{{content}}
+  </div>
+{% include footer.html %}
+</div>
+<!-- Optional JavaScript -->
+<script src="{{site.baseurl}}/assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/jquery.meanmenu.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/main.js"></script>
 </body>
-
 </html>
