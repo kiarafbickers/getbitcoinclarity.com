@@ -1,0 +1,79 @@
+---
+title: "Bitcoin Private Keys, Public Keys, and Addresses: The Basics"
+publishedAt: "2020-05-16"
+last_modified_at: "2020-05-21"
+summary: "Everything you need to know about Bitcoin Private Keys and Public Keys. Learn the differences between them and how each is used for transactions on the Bitcoin network."
+image: "/images/blog/01-bitcoin-keys.jpg"
+category: bitcoin
+---
+
+<YouTube videoId="QR1HZYod7Vs" />
+
+Bitcoin uses cryptography to create a key pair that controls access to bitcoin on the blockchain. Each bitcoin key pair consists of a public and private key.
+
+## What is a Bitcoin Private Key?
+
+A **bitcoin private key** is a large (256-bit) secret number that allows bitcoin to be unlocked and sent. Each private key creates a unique signature that authorizes the transaction of bitcoin for the owner. It’s called a private key because it is meant to be kept private and not shared with others.
+
+## What is a Bitcoin Public Key?
+
+A **bitcoin public key** is another large number that allows bitcoin to be locked and received. It’s called a public key because it is meant to be shared publicly, enabling others to send funds to it.
+
+## What is a Bitcoin Address?
+
+A bitcoin address is a hashed, smaller version of the public key.
+
+## What is the Difference Between Private and Public Keys?
+
+The main difference is that the private key unlocks access to bitcoin and authorizes transactions, while the public key is used to receive funds. The relationship between these keys is essential for the security of Bitcoin transactions.
+
+### You can think of public-key cryptography like a lock, but with two keys instead of one:
+
+<Image
+  src="/images/blog/01-bitcoin-keys/bitcoin-privatekey-publickey-lock.png"
+  alt="bitcoin private key public key bitcoin clarity"
+/>
+
+Although understanding the cryptography isn't necessary to use Bitcoin, knowing how the keys work can help users trust the system.
+
+## How Does the Bitcoin Private Key Relate to the Bitcoin Public Key?
+
+These two keys are mathematically related on the secp256k1 elliptic curve. The private key is a randomly generated number plotted on this curve, and the corresponding public key is a related point on the curve.
+
+## Is the Bitcoin Address the Same as the Public Key?
+
+### Addresses are smaller (hashed) versions of public keys:
+
+<Image
+  src="/images/blog/01-bitcoin-keys/bitcoin-privatekey-publickey-address.png"
+  alt="bitcoin address public key bitcoin clarity"
+/>
+
+Public keys come in different formats, starting with 1, 3, or `bc1`. When providing a public address (or QR code), you are giving the sender the ability to lock bitcoin on your behalf.
+
+## How Are Bitcoin Keys and Addresses Generated?
+
+<YouTube videoId="QR1HZYod7Vs" />
+
+Bitcoin wallet software generates users' wallets, addresses, and keys. The private key is created by software designed to handle large numbers and generate them randomly.
+
+**TIP:** You can experiment with [bitaddress.org](https://www.bitaddress.org), but don't use it for real keys. Instead, for real transactions, use Bitcoin Core or a hardware wallet.
+
+## How Many Private Keys Are There?
+
+There are approximately 10^77 possible private keys, ensuring that no two keys will ever be the same, securing the Bitcoin network.
+
+## What is a Seed Phrase or Mnemonic Recovery?
+
+A mnemonic phrase is a private key represented as a list of 12 or 24 random words, making it easier to store and recover.
+
+<Image
+  src="/images/blog/01-bitcoin-keys/bitcoin-privatekey-generation-mnemonic-recovery.png"
+  alt="bitcoin mnemonic recovery phrase bitcoin clarity"
+/>
+
+Adding a password can enhance the security of the mnemonic phrase.
+
+## What is the Best Way to Store Bitcoin Private Keys?
+
+The most secure way to store private keys is offline, in cold storage, on a dedicated hardware device, with your recovery mnemonic stored separately.
